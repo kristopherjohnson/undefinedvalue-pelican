@@ -20,14 +20,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
+          ('GitHub', 'https://github.com/kristopherjohnson'),
+          ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
+          ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
 
 DEFAULT_PAGINATION = 10
 
