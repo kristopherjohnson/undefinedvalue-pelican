@@ -9,6 +9,6 @@ First, run this command to enable the virtual Python 3 environment that has Peli
 
 Then, to build the pages in the `undefinedvalue/output` directory:
 
-    cd undefinedvalue
     make html
 
+Use `make help`, or `make` with no arguments to see other targets.
