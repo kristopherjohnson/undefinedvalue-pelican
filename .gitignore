@@ -6,9 +6,7 @@ CVS
 
 .svn
 
-bin
 .bin
-Bin
 obj
 Debug
 Debug Dist
