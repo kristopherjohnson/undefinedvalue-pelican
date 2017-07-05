@@ -19,6 +19,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Per-month archive
+MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}/index.html'
+
 # Blogroll
 LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),)
 
