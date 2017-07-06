@@ -38,3 +38,5 @@ DEFAULT_PAGINATION = 10
 
 PLUGINS = ['pelican_alias']
 
+THEME = '../themes/undefinedvalue'
+
