@@ -29,7 +29,6 @@
     <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/skeleton.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/undefinedvalue.css" />
@@ -58,10 +57,49 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+    </div>
 
+    <div class="row">
+
+        <div class="nine columns">
         {% block content %}
         {% endblock %}
+        </div>
 
+        <div class="three columns">
+        <section id="extras" class="body">
+        {% if LINKS %}
+                <div class="blogroll">
+                        <h2>{{ LINKS_WIDGET_NAME | default('links') }}</h2>
+                        <ul>
+                        {% for name, link in LINKS %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.blogroll -->
+        {% endif %}
+        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
+                <div class="social">
+                        <h2>{{ SOCIAL_WIDGET_NAME | default('social') }}</h2>
+                        <ul>
+                            {% if FEED_ALL_ATOM %}
+                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            {% endif %}
+                            {% if FEED_ALL_RSS %}
+                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
+                            {% endif %}
+
+                        {% for name, link in SOCIAL %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.social -->
+        {% endif %}
+        </section><!-- /#extras -->
+        </div>
+    </div>  
+
+    <div class="row">
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>,

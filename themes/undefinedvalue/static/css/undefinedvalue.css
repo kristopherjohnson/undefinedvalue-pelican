@@ -1,9 +1,37 @@
+body {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited {
+    color: rgb(16, 74, 145);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: rgb(192, 96, 80);
+    text-decoration: underline;
+}
+
+#menu {
+    color: white;
+    background-color: rgb(16, 74, 145);
+}
+
+#menu a:link, #menu a:visited {
+    color: white;
+}
+
+#menu a:hover, a:active {
+    color: rgb(224, 224, 224);
+}
+
 #menu li {
-    display : inline ;
+    color: white;
+    display : inline;
 }
 
 #post-list {
-    margin-bottom : 1em ;
-    margin-top : 1em ;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 

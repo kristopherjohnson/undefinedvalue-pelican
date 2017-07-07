@@ -23,13 +23,17 @@ AUTHOR_FEED_RSS = None
 MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}/index.html'
 
 # Blogroll
-LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),)
+LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),
+         ("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),)
+LINKS_WIDGET_NAME = 'Other Stuff'
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
           ('GitHub', 'https://github.com/kristopherjohnson'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
+          ('Pinboard', 'https://pinboard.in/u:OldManKris'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
+SOCIAL_WIDGET_NAME = 'Social'
 
 DEFAULT_PAGINATION = 10
 
