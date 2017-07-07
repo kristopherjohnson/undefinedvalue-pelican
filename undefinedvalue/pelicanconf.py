@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kristopher Johnson'
 SITENAME = 'Undefined Value'
+SITESLOGAN = "Kris Johnson's Blog"
 SITEURL = ''
 
 PATH = 'content'
@@ -33,7 +34,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
           ('Pinboard', 'https://pinboard.in/u:OldManKris'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
-SOCIAL_WIDGET_NAME = 'Social'
+SOCIAL_WIDGET_NAME = 'More of Me'
 
 DEFAULT_PAGINATION = 10
 

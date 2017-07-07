@@ -37,9 +37,13 @@
 </head>
 <body id="index" class="home">
   <div class="container">
+
     <div class="row">
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+                {% if SITESLOGAN %}
+                <div class="site-slogan">{{ SITESLOGAN }}</div>
+                {% endif %}
         </header><!-- /#banner -->
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
@@ -57,14 +61,14 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
-    </div>
+    </div><!-- /.row -->
 
     <div class="row">
 
         <div class="nine columns">
         {% block content %}
         {% endblock %}
-        </div>
+        </div><!-- /.nine columns -->
 
         <div class="three columns">
         <section id="extras" class="body">
@@ -96,8 +100,8 @@
                 </div><!-- /.social -->
         {% endif %}
         </section><!-- /#extras -->
-        </div>
-    </div>  
+        </div><!-- /.three columns -->
+    </div><!-- /.row -->
 
     <div class="row">
         <footer id="contentinfo" class="body">
@@ -106,8 +110,9 @@
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
-    </div>
-  </div>
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
 </body>
 </html>
 
