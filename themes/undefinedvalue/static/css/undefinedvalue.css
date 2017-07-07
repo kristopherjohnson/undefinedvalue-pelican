@@ -50,17 +50,31 @@ a:hover, a:active {
     background-color: rgb(16, 74, 145);
 }
 
-#menu a:link, #menu a:visited {
-    color: white;
-}
-
-#menu a:hover, a:active {
-    color: rgb(224, 224, 224);
+#menu ul {
+    padding: 0;
 }
 
 #menu li {
-    color: white;
     display : inline;
+    padding: 0;
+}
+
+#menu li {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#menu a {
+    padding: 1rem;
+}
+
+#menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.active, #menu a:hover, #menu a:active {
+    background-color: rgb(108, 140, 181);
 }
 
 #post-list {
