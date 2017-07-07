@@ -39,12 +39,20 @@
   <div class="container">
 
     <div class="row">
+        <div class="logo">
+            <a href="{{ SITEURL }}/">
+                <img src="{{ SITEURL }}/theme/images/undefinedvalue_logo.png" alt="Logo">
+            </a>
+        </div>
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-                {% if SITESLOGAN %}
-                <div class="site-slogan">{{ SITESLOGAN }}</div>
-                {% endif %}
+            <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+            {% if SITESLOGAN %}
+            <div class="site-slogan">{{ SITESLOGAN }}</div>
+            {% endif %}
         </header><!-- /#banner -->
+    </div>
+
+    <div class="row">
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
