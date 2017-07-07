@@ -21,7 +21,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Per-month archive
+YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
+
+# Per-month archive
 MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}/index.html'
+
+# Per-day archive
+DAY_ARCHIVE_SAVE_AS = 'archive/{date:%y}{date:%m}{date:%d}/index.html'
 
 # Blogroll
 LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),
