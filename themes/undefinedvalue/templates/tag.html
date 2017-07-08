@@ -1,2 +1,8 @@
 {% extends "index.html" %}
-{% block title %}{{ SITENAME }} - {{ tag }}{% endblock %}
+
+{% block title %}{{ tag }} | {{ SITENAME }}{% endblock %}
+
+{% block content_title %}
+<h2>{{ tag }}</h2>
+{% endblock %}
+
