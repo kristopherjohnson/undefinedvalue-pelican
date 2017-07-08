@@ -6,6 +6,7 @@ AUTHOR = 'Kristopher Johnson'
 SITENAME = 'Undefined Value'
 SITESUBTITLE = "Kris Johnson's Blog"
 SITEURL = ''
+COPYRIGHT_NOTICE = '© 2003-2017 Kristopher Johnson'
 
 PATH = 'content'
 
