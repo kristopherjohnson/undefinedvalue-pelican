@@ -7,8 +7,12 @@ First, run this command to enable the virtual Python 3 environment that has Peli
 
     source venv-pelican/bin/activate
 
-Then, to build the pages in the `undefinedvalue/output` directory:
+To create a new post:
 
-    make html
+    make newpost
+
+To regenerate and publish the site to GitHub Pages:
+
+    make github
 
 Use `make help`, or `make` with no arguments to see other targets.
