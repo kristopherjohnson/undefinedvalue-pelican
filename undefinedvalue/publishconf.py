@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 #SITEURL = 'http://undefinedvalue.com'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://kristopherjohnson.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
