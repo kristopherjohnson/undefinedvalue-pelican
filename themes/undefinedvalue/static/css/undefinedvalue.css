@@ -82,11 +82,16 @@ a:hover, a:active {
     list-style-type: none;
 }
 
+.post-info {
+    font-size: smaller;
+}
+
 .entry-content {
     margin-top: 1.5rem;
 }
 
 ul.tags, .tags li {
     display: inline;
+    font-weight: bold;
 }
 
