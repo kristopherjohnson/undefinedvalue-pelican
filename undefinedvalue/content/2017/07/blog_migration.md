@@ -6,7 +6,7 @@ Tags: blog
 
 I've moved this blog from a [Drupal](https://www.drupal.org) CMS running on an AWS EC2 instance to a statically generated set of pages hosted on [GitHub Pages](https://pages.github.com).  If you're curious about the reasons and the process, read on.
 
-For several years, my blog has been running on Drupal 6.  Drupal [seemed like a good idea when I started][http://undefinedvalue.com/2009/04/18/drupal-rocks], as it was a mature easy-to-use content management system, but I've been wanting to get away from it for a while.  I spend more time maintaining Drupal then I do writing articles for the blog.  When I started I had to do [a lot of work][http://undefinedvalue.com/2010/11/12/setting-drupal-6-ubuntu-1010-ec2] to get Drupal configured and running well.  There are always new versions and security updates to apply, and I really should have upgraded to Drupal 7 and then Drupal 8 somewhere along the way, but I haven't and now I can't update to newer versions of Ubuntu. The care and feeding of Drupal is just too much work for the benefits it provides for my simple blog.
+For several years, my blog has been running on Drupal 6.  Drupal [seemed like a good idea when I started](http://undefinedvalue.com/2009/04/18/drupal-rocks), as it was a mature easy-to-use content management system, but I've been wanting to get away from it for a while.  I spend more time maintaining Drupal then I do writing articles for the blog.  When I started I had to do [a lot of work](http://undefinedvalue.com/2010/11/12/setting-drupal-6-ubuntu-1010-ec2) to get Drupal configured and running well.  There are always new versions and security updates to apply, and I really should have upgraded to Drupal 7 and then Drupal 8 somewhere along the way, but I haven't and now I can't update to newer versions of Ubuntu. The care and feeding of Drupal is just too much work for the benefits it provides for my simple blog.
 
 I decided to move to a static site generator, as I don't need dynamic features and I want to avoid the pain of setting up any more CMSes or blogging engines on any server.
 
@@ -103,11 +103,11 @@ Publishing the New Site
 
 I had already set up my personal `kristopherjohnson.github.io` repo as a GitHub Pages site.  It was a simple index.html that redirected to the Undefined Value home page.  I set up a Makefile rule that would copy the output from Pelican to my local repo, commit the change, and then push it to GitHub.  
 
-So, all I have to do to generate the site and push it to the cloud is this:
+So, all I have to do to regenerate the site and push it to the cloud is this:
 
-    make publish github
+    make github
 
-Finally, I went to my domain registrar and updated the undefinedvalue.com address so it would go to GitHub rather than to my EC2 server.
+Finally, I went to my domain registrar and updated the undefinedvalue.com address so it would point to GitHub rather than to my EC2 server.
 
 
 Conclusion
@@ -117,4 +117,5 @@ I've wanted to do this for a while, but feared it would take up a few weekends a
 
 One thing I miss is the simplicity of editing with Drupal.  If I saw a typo on the site, I could just click an Edit button, fix it, and Save.  Now if I see something wrong, I have to find the right input file in my tree of files, edit it, and then republish, and then wait a few minutes to see if it looks right now.  But I am very happy to no longer be dependent upon a MySQL database, an old version of a PHP-based CMS, and an EC2 web server.
 
-If you want to see my Pelican setup, it's here: <https://github.com/kristopherjohnson/undefinedvalue-pelican>.
+If you want to see my Pelican setup, it's available here for all to see: <https://github.com/kristopherjohnson/undefinedvalue-pelican>.
+
