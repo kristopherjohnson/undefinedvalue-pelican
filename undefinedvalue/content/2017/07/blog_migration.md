@@ -76,6 +76,18 @@ Pelican worked pretty well on my first try (except for a CRITICAL error when run
 So I decided to go with Pelican as my site generator.
 
 
+Python 3 Virtual Environment
+----------------------------
+
+To ensure I'd be able to easily run the Pelican generator on any machine, now or in the future, I set up a Python 3 [virtual environment](https://docs.python.org/3.5/library/venv.html) and installed the necessary packages:
+
+    python3 -m venv-pelican-blog                # create the environment
+    source venv-pelican-blog/bin/activate       # activate the environment
+    pip install pelican pelican-alias markdown  # install dependencies
+
+And then before running any Pelican commands, I have to make sure I run the command `source venv-pelican-blog/bin/activate`.
+
+
 Configuring Pelican
 -------------------
 
@@ -101,21 +113,25 @@ One problem I ran into was that the `simple` framework had an empty (0 bytes) `t
 Publishing the New Site
 -----------------------
 
-I had already set up my personal `kristopherjohnson.github.io` repo as a GitHub Pages site.  It was a simple index.html that redirected to the Undefined Value home page.  I set up a Makefile rule that would copy the output from Pelican to my local repo, commit the change, and then push it to GitHub.  
+I had already set up my personal `kristopherjohnson.github.io` repo as a GitHub Pages site.  It was a simple index.html that redirected to the Undefined Value home page.  I set up a Makefile rule that would copy the output from Pelican to my local repo, commit the change, and then push that repo to GitHub.  
 
 So, all I have to do to regenerate the site and push it to the cloud is this:
 
+    cd ~/work/undefinedvalue-pelican
+    source venv-pelican-blog/bin/activate
     make github
 
-Finally, I went to my domain registrar and updated the undefinedvalue.com address so it would point to GitHub rather than to my EC2 server.
+It takes about four seconds to run `make github`.  After that, it takes a minute or two before the changes are actually visible on the site.
+
+Finally, I went to my domain registrar and updated the `undefinedvalue.com` address records so it would point to GitHub rather than to my EC2 server.
 
 
 Conclusion
 ----------
 
-I've wanted to do this for a while, but feared it would take up a few weekends and be full of frustration.  It was actually a lot easier than I expected.  The hardest part for me was getting the CSS right.  But it feels good that I figured out how to do a full conversion with just a few scripts.
+I've wanted to do this migration for over a year, but feared it would take up a few weekends and be full of frustration.  It was actually a lot easier than I expected.  The hardest part for me was getting the CSS right.  But it feels good that I figured out how to do a full conversion by writing a few scripts and modifying some configuration files and templates.
 
-One thing I miss is the simplicity of editing with Drupal.  If I saw a typo on the site, I could just click an Edit button, fix it, and Save.  Now if I see something wrong, I have to find the right input file in my tree of files, edit it, and then republish, and then wait a few minutes to see if it looks right now.  But I am very happy to no longer be dependent upon a MySQL database, an old version of a PHP-based CMS, and an EC2 web server.
+One thing I miss is the simplicity of editing with Drupal.  If I saw a typo on the site, I could just click an _Edit_ button, fix it, and _Save_.  Now if I see something wrong, I have to find the right input file in my tree of files, edit it, and then republish, and then wait a few minutes to see if it looks right.  But I am very happy to no longer be dependent upon a MySQL database, an old version of a PHP-based CMS, and an EC2 web server.
 
 If you want to see my Pelican setup, it's available here for all to see: <https://github.com/kristopherjohnson/undefinedvalue-pelican>.
 
