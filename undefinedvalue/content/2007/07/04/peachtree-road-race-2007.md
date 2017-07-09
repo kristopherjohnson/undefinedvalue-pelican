@@ -3,7 +3,7 @@ Date: 2007-07-04 17:51:00
 Category: Blog
 Slug: peachtree-road-race-2007
 Alias: 2007/07/04/peachtree-road-race-2007/
-Tags: peachtreeroadrace, photo
+Tags: peachtreeroadrace, photo, running
 
 
 <div style="float: right; margin-left: 10px; margin-bottom: 10px;">
