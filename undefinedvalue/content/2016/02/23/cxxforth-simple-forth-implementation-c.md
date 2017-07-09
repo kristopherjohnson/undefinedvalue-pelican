@@ -3,7 +3,7 @@ Date: 2016-02-23 11:05:48
 Category: Blog
 Slug: cxxforth-simple-forth-implementation-c
 Alias: 2016/02/23/cxxforth-simple-forth-implementation-c/
-Tags: programming, forth, cxxforth
+Tags: programming, forth, c++, cxxforth
 
 
 Because implementing obsolete programming languages is a great use of my free time, I've created [cxxforth][cxxforth], an implementation of [Forth][forth] in [C++][c++].
