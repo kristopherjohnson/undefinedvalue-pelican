@@ -2,7 +2,7 @@ Title: Rebuilding My Blog Again
 Date: 2017-07-08 15:00:00
 Category: Blog
 Slug: rebuilding-my-blog-again
-Tags: blog
+Tags: blog, drupal, mysql, pelican, python
 
 I've moved this blog from a [Drupal](https://www.drupal.org) CMS running on an AWS EC2 instance to a statically generated set of pages hosted on [GitHub Pages](https://pages.github.com).  If you're curious about the reasons and the process, read on.
 
