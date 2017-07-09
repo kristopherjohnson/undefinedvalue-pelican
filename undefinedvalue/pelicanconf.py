@@ -36,8 +36,7 @@ MENUITEMS = (('Front Page', '/'),
              ('Archives', '/archives.html'))
 
 # Blogroll
-LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),
-         ("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),)
+LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),)
 LINKS_WIDGET_NAME = 'Other Stuff'
 
 # Social widget
@@ -45,6 +44,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
           ('GitHub', 'https://github.com/kristopherjohnson'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
           ('Pinboard', 'https://pinboard.in/u:OldManKris'),
+          ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
 SOCIAL_WIDGET_NAME = 'More of Me'
 
@@ -56,4 +56,6 @@ DEFAULT_PAGINATION = 10
 PLUGINS = ['pelican_alias']
 
 THEME = '../themes/undefinedvalue'
+
+STATIC_PATHS = ['files']
 
