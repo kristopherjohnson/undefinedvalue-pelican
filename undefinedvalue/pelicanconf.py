@@ -30,6 +30,11 @@ MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}/index.html'
 # Per-day archive
 DAY_ARCHIVE_SAVE_AS = 'archive/{date:%y}{date:%m}{date:%d}/index.html'
 
+# Top-banner items
+MENUITEMS = (('Front Page', '/'),
+             ('Tags', '/tags.html'),
+             ('Archives', '/archives.html'))
+
 # Blogroll
 LINKS = (("Kris's Résumé", 'http://undefinedvalue.com/page/kjresume'),
          ("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),)
