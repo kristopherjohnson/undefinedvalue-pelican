@@ -3,7 +3,7 @@ Slug: kjresume
 Alias: /page/kjresume
 Date: 2017-07-04 21:16
 
-My résumé is available at [Stack Overflow Careers](http://careers.stackoverflow.com/kristopherjohnson)
+My résumé is available at [Stack Overflow Careers](http://careers.stackoverflow.com/kristopherjohnson).
 
 You can also download it here:
 
