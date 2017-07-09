@@ -3,7 +3,7 @@ Date: 2017-04-22 19:07:16
 Category: Blog
 Slug: my-first-chess-program
 Alias: 2017/04/22/my-first-chess-program/
-Tags: chess, self-indulgence
+Tags: chess, self-indulgence, swift
 
 
 When I was a kid, back in the 70's and 80's, I thought chess programs were the most sophisticated computer programs in the world.  That was back when the average personal-computer chess program wasn't very good, and dedicated chess computers cost hundreds or thousands of dollars, so it seemed to me that chess was something very difficult for computers to do.  At the time, many experts still thought a computer would never be able to beat human grandmasters.  I dreamed that I would one day write The World's Greatest Chess Program, and that would prove I was a great computer programmer.
@@ -11,7 +11,7 @@ When I was a kid, back in the 70's and 80's, I thought chess programs were the m
 But one's priorities change.  I did look into how chess programs worked when I was in college, and while I found the topic interesting, I didn't try writing my own program.  I still thought that writing a chess program was something every Real Computer Programmer should do, but I didn't get around to it.
 
 Now, at age 50, I've finally done it.  A few weeks ago I started writing a chess engine in [Swift](https://swift.org), and it is now capable of playing a real chess game. I call it "kjchess".
-<!--break-->
+
 It works, but it's slow.  On my 2013 MacBook Pro, my move search function can only search about four half-moves deep to find a move in a reasonable time, even when using all the CPU cores.  That is terrible, considering that it is worse than the 4MHz 8-bit [Fidelity "Classic" chess computer](http://www.spacious-mind.com/html/classic.html) I had 25 years ago.
 
 Why is my engine so slow?  I initially gave myself a few constraints:
@@ -29,3 +29,4 @@ Also, my engine doesn't save any search state between moves, and it doesn't do a
 Despite its limitations, it plays well enough to beat me once in a while.  That's not impressive, because I am a terrible chess player, but I figure I'm a winner either way. (I'm also a loser either way, but I can ignore that.)
 
 If you want to play it, and you have a Mac and know how to build Swift programs, you can check it out here: <https://github.com/kristopherjohnson/kjchess>
+
