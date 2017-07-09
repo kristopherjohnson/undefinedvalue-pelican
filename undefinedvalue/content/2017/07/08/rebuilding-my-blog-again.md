@@ -123,7 +123,10 @@ So, all I have to do to regenerate the site and push it to the cloud is this:
 
 It takes about four seconds to run `make github`.  After that, it takes a minute or two before the changes are actually visible on the site.
 
-Finally, I went to my domain registrar and updated the `undefinedvalue.com` address records so it would point to GitHub rather than to my EC2 server.
+Finally, I went to my domain registrar and updated the `undefinedvalue.com` address records so it now points to GitHub rather than to my old server, following the instructions on these pages:
+
+- [Quick start: Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/)
+- [Setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain/)
 
 
 Conclusion
