@@ -35,13 +35,14 @@ MENUITEMS = (('Front Page', '/'),
              ('Tags', '/tags.html'),
              ('Archives', '/archives.html'))
 
-# Blogroll
-LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),)
+# External links
+LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
+         ('GitHub', 'https://github.com/kristopherjohnson'),
+         ('Bitbucket', 'https://bitbucket.org/KristopherJohnson/'))
 LINKS_WIDGET_NAME = 'Other Stuff'
 
-# Social widget
+# Social networks
 SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
-          ('GitHub', 'https://github.com/kristopherjohnson'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
           ('Pinboard', 'https://pinboard.in/u:OldManKris'),
           ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
