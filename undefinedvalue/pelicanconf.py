@@ -52,7 +52,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
           ('Pinboard', 'https://pinboard.in/u:OldManKris'),
           ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
-SOCIAL_WIDGET_NAME = 'More of Me'
+SOCIAL_WIDGET_NAME = 'Follow'
 
 DEFAULT_PAGINATION = 10
 
