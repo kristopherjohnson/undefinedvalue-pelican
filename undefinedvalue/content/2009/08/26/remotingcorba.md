@@ -1,9 +1,9 @@
 Title: Remoting.Corba
-Date: 2003-12-30 00:00:00
+Date: 2009-08-26 10:04
 Category: Blog
 Slug: remotingcorba
 Alias: 2003/12/29/remotingcorba/
-Tags: .NET, CORBA
+Tags: dotnet, corba
 
 
 <p>[Note: The Remoting.Corba project is "dead", and has not been active for several years.  If you need .NET-CORBA interoperability, I recommend checking out <a href="http://iiop-net.sourceforge.net">IIOP.NET</a>.  Archived Remoting.Corba documentation is still available via <a href="http://tinyurl.com/remoting-corba">The Wayback Machine</a>.]</p>
