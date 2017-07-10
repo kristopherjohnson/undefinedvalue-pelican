@@ -28,7 +28,7 @@ YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}/index.html'
 
 # Per-day archive
-DAY_ARCHIVE_SAVE_AS = 'archive/{date:%y}{date:%m}{date:%d}/index.html'
+DAY_ARCHIVE_SAVE_AS = 'archive/{date:%Y}{date:%m}{date:%d}/index.html'
 
 # Top-banner items
 MENUITEMS = (('Front Page', '/'),
