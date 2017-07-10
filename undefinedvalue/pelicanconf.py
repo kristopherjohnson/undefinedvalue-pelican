@@ -35,6 +35,11 @@ MENUITEMS = (('Front Page', '/'),
              ('Tags', '/tags.html'),
              ('Archives', '/archives.html'))
 
+# Featured posts
+FEATURED_ARTICLES = (('Welcome to My Blog', 'welcome-to-my-blog.md'),
+                     ('Self-Reflection', 'self-reflection.html'),)
+FEATURED_ARTICLES_WIDGET_NAME = 'Featured Posts'
+
 # External links
 LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
          ('GitHub', 'https://github.com/kristopherjohnson'),
