@@ -1,6 +1,6 @@
 Title: What to Do Differently This Time
 Date: 2004-05-11 01:47
-Author: Kris Johnson (noreply@blogger.com)
+Author: Kristopher Johnson
 Tags: managing
 Slug: what-to-do-differently-this-time
 

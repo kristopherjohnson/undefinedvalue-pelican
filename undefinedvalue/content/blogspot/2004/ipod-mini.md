@@ -1,6 +1,6 @@
 Title: iPod mini
 Date: 2004-05-16 16:06
-Author: Kris Johnson (noreply@blogger.com)
+Author: Kristopher Johnson
 Tags: ipod, itunes, apple
 Slug: ipod-mini
 
