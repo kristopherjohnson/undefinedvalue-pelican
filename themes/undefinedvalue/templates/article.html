@@ -43,4 +43,21 @@
     {{ article.content }}
   </div><!-- /.entry-content -->
 </section>
+<ul>
+{% if article.prev_article %}
+    <li>Previous article: 
+        <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
+            {{ article.prev_article.title }}
+        </a>
+    </li>
+{% endif %}
+{% if article.next_article %}
+    <li>Next article:
+        <a href="{{ SITEURL }}/{{ article.next_article.url}}">
+            {{ article.next_article.title }}
+        </a>
+    </li>
+{% endif %}
+</ul>
 {% endblock %}
+
