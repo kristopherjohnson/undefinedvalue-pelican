@@ -1,4 +1,4 @@
-Title: Rebuilding My Blog Again
+Title: Rebuilding My Blog Again, with Pelican
 Date: 2017-07-08 15:00:00
 Category: Blog
 Slug: rebuilding-my-blog-again
