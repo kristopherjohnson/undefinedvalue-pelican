@@ -1,7 +1,7 @@
 Title: Alarm Clock
 Date: 2004-10-12 18:07
 Author: Kristopher Johnson
-Tags: mac, apple
+Tags: mac, apple, menubarcountdown
 Slug: alarm-clock
 
 One of my favorite desk accessories on the old Mac was the Alarm Clock.
