@@ -10,6 +10,7 @@ But it really isn't too bad.  The worst part is the "prep", which is a euphemist
 
 One is anesthetized for the procedure.  I remember the anesthesiologist asking the doctor "Should I put him to sleep now?" and the next thing I remember is waking up in the recovery room.  After a meal and a long nap at home, it's like nothing ever happened.
 
-So now I'm part of the colonoscopy club, but I don't plan to attend another meeting until I'm 60.
+I have some pictures, but don't worry, I won't share them.
 
+So now I'm part of the colonoscopy club.  I don't plan to attend another meeting until I'm 60.
 
