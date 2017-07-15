@@ -22,8 +22,9 @@ Slug: {{ post.slug }}
 Date: {{ post.created }}
 Category: Blog
 Tags: untagged
+Status: draft
 
-TODO: Set Tags above, then Write the post.
+TODO: Set Tags above, then Write the post, then remove "Status: draft".
 
 """
 
