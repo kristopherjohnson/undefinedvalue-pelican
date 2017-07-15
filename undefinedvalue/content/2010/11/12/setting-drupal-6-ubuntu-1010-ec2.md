@@ -1,8 +1,8 @@
 Title: Setting Up Drupal 6 on Ubuntu 10.10 on EC2
-Date: 2010-11-13 03:14:23
+Date: 2010-11-12 22:14:23
 Category: Blog
 Slug: setting-drupal-6-ubuntu-1010-ec2
-Alias: 2010/11/12/setting-drupal-6-ubuntu-1010-ec2/
+Alias: 2010/11/12/setting-drupal-ubuntu-1010-ec2/
 Tags: ubuntu, ec2, drupal, admin
 
 
