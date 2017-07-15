@@ -36,12 +36,13 @@ MENUITEMS = (('Front Page', '/'),
              ('Archives', '/archives.html'))
 
 # Featured posts
-FEATURED_ARTICLES = (('Welcome to My Blog', 'welcome-to-my-blog.md'),
-                     ('Self-Reflection', 'self-reflection.html'),)
+FEATURED_ARTICLES = (('Welcome to My Blog', '/welcome-to-my-blog.html'),
+                     ('Self-Reflection', '/self-reflection.html'),)
 FEATURED_ARTICLES_WIDGET_NAME = 'Featured Posts'
 
 # External links
-LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
+LINKS = (('Search This Blog', 'https://cse.google.com/cse/publicurl?cx=007851071617878239069:9_ti50l6w7s'),
+         ("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
          ('GitHub', 'https://github.com/kristopherjohnson'),
          ('Bitbucket', 'https://bitbucket.org/KristopherJohnson/'))
 LINKS_WIDGET_NAME = 'Other Stuff'
