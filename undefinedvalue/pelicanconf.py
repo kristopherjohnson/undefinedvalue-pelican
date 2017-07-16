@@ -67,3 +67,49 @@ THEME = '../themes/undefinedvalue'
 
 STATIC_PATHS = ['files']
 
+EXTRA_PATH_METADATA = {
+    'files/CellGradientBackground.png':
+        { 'path': 'sites/undefinedvalue.com/files/CellGradientBackground.png' },
+    'files/Copy_File_Paths_to_Clipboard.png':
+        { 'path': 'sites/undefinedvalue.com/files/Copy_File_Paths_to_Clipboard.png' },
+    'files/Copy_UTC_Timestamp_to_Clipboard.png':
+        { 'path': 'sites/undefinedvalue.com/files/Copy_UTC_Timestamp_to_Clipboard.png' },
+    'files/GradientButtonsAppScreenshot.png':
+        { 'path': 'sites/undefinedvalue.com/files/GradientButtonsAppScreenshot.png' },
+    'files/GradientButtonsInterfaceBuilder.png':
+        { 'path': 'sites/undefinedvalue.com/files/GradientButtonsInterfaceBuilder.png' },
+    'files/GradientTableViewCell.h':
+        { 'path': 'sites/undefinedvalue.com/files/GradientTableViewCell.h' },
+    'files/GradientTableViewCell.m':
+        { 'path': 'sites/undefinedvalue.com/files/GradientTableViewCell.m' },
+    'files/HourglassIcon256x256.png':
+        { 'path': 'sites/undefinedvalue.com/files/HourglassIcon256x256.png' },
+    'files/MenuTimerIcon256x256.png':
+        { 'path': 'sites/undefinedvalue.com/files/MenuTimerIcon256x256.png' },
+    'files/NewHourglassIcon256x256.png':
+        { 'path': 'sites/undefinedvalue.com/files/NewHourglassIcon256x256.png' },
+    'files/NoGradient.png':
+        { 'path': 'sites/undefinedvalue.com/files/NoGradient.png' },
+    'files/Scale_Images_by_75_percent.png':
+        { 'path': 'sites/undefinedvalue.com/files/Scale_Images_by_75_percent.png' },
+    'files/Speak_Count_of_Words_on_Clipboard_service.png':
+        { 'path': 'sites/undefinedvalue.com/files/Speak_Count_of_Words_on_Clipboard_service.png' },
+    'files/Tiles_Screenshot.png':
+        { 'path': 'sites/undefinedvalue.com/files/Tiles_Screenshot.png' },
+    'files/WithGradient.png':
+        { 'path': 'sites/undefinedvalue.com/files/WithGradient.png' },
+    'files/calculator.js_.txt':
+        { 'path': 'sites/undefinedvalue.com/files/calculator.js_.txt' },
+    'files/calculator_tests.html_.txt':
+        { 'path': 'sites/undefinedvalue.com/files/calculator_tests.html_.txt' },
+    'files/calculator_tests.js_.txt':
+        { 'path': 'sites/undefinedvalue.com/files/calculator_tests.js_.txt' },
+    'files/iStock_000001485226XSmall.jpg':
+        { 'path': 'sites/undefinedvalue.com/files/iStock_000001485226XSmall.jpg' },
+    'files/iStock_000002585519XSmall.jpg':
+        { 'path': 'sites/undefinedvalue.com/files/iStock_000002585519XSmall.jpg' },
+    'files/jb-screenshot-small.png':
+        { 'path': 'sites/undefinedvalue.com/files/jb-screenshot-small.png' },
+    'files/temperaturewarning.png':
+        { 'path': 'sites/undefinedvalue.com/files/temperaturewarning.png' },
+}
