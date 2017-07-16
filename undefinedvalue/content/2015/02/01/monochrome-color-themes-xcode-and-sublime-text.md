@@ -2,7 +2,7 @@ Title: Monochrome Color Themes for Xcode and Sublime Text
 Date: 2015-02-01 15:38:05
 Category: Blog
 Slug: monochrome-color-themes-xcode-and-sublime-text
-Alias: 2015/02/01/monochrome-color-themes-xcode-and-sublime-text/
+Alias: 2015/02/01/monochrome-color-themes-xcode/
 Tags: xcode, colortheme
 
 
