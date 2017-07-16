@@ -4,6 +4,7 @@ Category: Blog
 Slug: web-page-reformatting-json-text
 Alias: 2013/03/02/web-page-reformatting-json-text/
 Tags: json
+AdSense: yes
 
 
 After I published my [OS X Automator Service for Reformatting JSON Text](http://undefinedvalue.com/2013/03/01/os-x-automator-service-reformatting-json-text), one commenter said that he always uses <http://jsonformat.com/>. I have used that, but I hate the output it produces. Its output is more readable than JSON with all the whitespace stripped out, but not by much.

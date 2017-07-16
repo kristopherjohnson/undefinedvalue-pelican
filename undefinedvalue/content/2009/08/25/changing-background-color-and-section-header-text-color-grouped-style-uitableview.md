@@ -4,10 +4,11 @@ Category: Blog
 Slug: changing-background-color-and-section-header-text-color-grouped-style-uitableview
 Alias: 2009/08/25/changing-background-color-and-section-header-text-color-grouped-style-uitableview/
 Tags: samplecode, programming, iphone, code, cocoa, iosdev
+AdSense: yes
 
 
 While working on an iPhone application, I decided I wanted to change the colors of the background and section headers of a `UITableView` with the `UITableViewStyleGrouped` style. It took a lot more work than I expected, so I'm sharing what I learned with anyone else who needs to do this.
-<!--break-->
+
 To review: when you create a table view with the grouped style, each section of the table shows up as a rounded rectangle, section titles are displayed as dark gray text between the rectangles, and the background is gray. I wanted the background to be a pale pastel color, so I looked into how to change that.
 
 Of course, I first looked at the options in Interface Builder.  A table view has a background color that can be set in IB, but setting that didn't accomplish anything.

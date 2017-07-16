@@ -4,6 +4,7 @@ Category: Blog
 Slug: setting-personal-tiddlywiki-server-os-x
 Alias: 2015/04/02/setting-personal-tiddlywiki-server-os-x/
 Tags: tiddlywiki
+AdSense: yes
 
 
 For a new job, I decided to set up a personal [wiki](http://en.wikipedia.org/wiki/Wiki) to keep notes. I wanted to keep it simple, meeting these requirements:
@@ -154,3 +155,4 @@ With these definitions, you can just execute `twreload` and refresh your browser
 Once you have everything working, explore the [TiddlyWiki](http://tiddlywiki.com) website to learn more about how to use it.
 
 One of the first things you'll want to do is click the gear icon to go to the Control Panel and customize the site title and other settings.
+

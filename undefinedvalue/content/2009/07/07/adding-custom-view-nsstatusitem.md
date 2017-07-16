@@ -4,6 +4,7 @@ Category: Blog
 Slug: adding-custom-view-nsstatusitem
 Alias: 2009/07/07/adding-custom-view-nsstatusitem/
 Tags: programming, menubarcountdown, code, cocoa, macdev
+AdSense: yes
 
 
 My [Menubar Countdown](http://capablehands.net/menubarcountdown) application uses an [NSStatusItem](http://developer.apple.com/documentation/Cocoa/Reference/ApplicationKit/Classes/NSStatusItem_Class/Reference/Reference.html) to display itself in the menu bar.  I recently had to add a custom view to that status item, and thought I'd share what I learned about the process here.

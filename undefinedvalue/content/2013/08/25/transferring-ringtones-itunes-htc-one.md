@@ -4,7 +4,7 @@ Category: Blog
 Slug: transferring-ringtones-itunes-htc-one
 Alias: 2013/08/25/transferring-ringtones-itunes-htc-one/
 Tags: ringtones, itunes, android
-
+AdSense: yes
 
 I had some ringtones purchased from iTunes that I wanted to put onto my new HTC&nbsp;One. Googling for instructions found many hits, but many of those pages were a few years old, so the instructions didn't work anymore, or they didn't work with the HTC One, or were six-minute-long YouTube videos. So, I'm writing up some simple instructions that worked on my HTC&nbsp;One. (They will probably work with other Android phones, but I'm not promising anything.)
 

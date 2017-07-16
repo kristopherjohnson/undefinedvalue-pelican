@@ -4,10 +4,11 @@ Category: Blog
 Slug: re-attaching-imac-stand-after-vesa-mount-use
 Alias: 2012/08/19/re-attaching-imac-stand-after-vesa-mount-use/
 Tags: vesa, imac
+AdSense: yes
 
 
 We recently purchased a new iMac to replace a old iMac. The old iMac was attached to a wall mount using Apple's [VESA Mount Adapter](http://store.apple.com/us/product/MD179ZM/A), so I had to remove the old iMac from that adapter and attach the new iMac to it.  That went fine, but then I had problems re-connecting the original stand to the old iMac.  What follows is what I learned, and I hope it helps others who have the same problem.
-<!--break-->
+
 When you connect an iMac to a VESA adapter, you first have to remove the iMac's stand. This procedure is described in the VESA adapter manual, and it is not difficult. Unfortunately, that manual does not tell you how to reattach the stand to the iMac when you no longer want it mounted to a wall, and simply following the manual in reverse doesn't work.
 
 The complication is that there is a latch inside an iMac that keeps the stand at a range of angles that hides the screws. The VESA adapter kit comes with a little credit-card-sized plastic "access card" that you slide into the stand slot to release the latch and "lock" it into the position needed to remove the screws and connect the VESA adapter.  But when you take the VESA adapter off and reconnect the stand, it is not obvious how to unlock that latch.

@@ -3,6 +3,7 @@ Date: 2013-06-29 18:20:32
 Category: Blog
 Slug: removing-broken-lightning-connector-plug-ipad-or-iphone
 Alias: 2013/06/29/removing-broken-lightning-connector-plug-ipad-or-iphone/
+AdSense: yes
 
 
 Newer models of the iPad, iPhone, and iPod touch use the [Lightning connector](http://en.wikipedia.org/wiki/Lightning_(connector)) instead of the old 30-pin dock connectors. The Lightning connector is smaller and you don't have to worry about inserting it upside-down, so on the whole this is a good change. However, the connector plug is not as sturdy as the old plug, and my wife somehow broke the plug off inside her iPad.

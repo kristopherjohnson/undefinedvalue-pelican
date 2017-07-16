@@ -4,10 +4,11 @@ Category: Blog
 Slug: distributing-custom-ios-b2b-app
 Alias: 2012/07/12/distributing-custom-ios-b2b-app/
 Tags: iosdev, b2b, appstore
+AdSense: yes
 
 
 I recently went through the process of distributing a free [custom B2B app](https://developer.apple.com/programs/volume/b2b/) in the App Store. I hit a few snags, and I found very little information about the process, or help in online forums, and Apple Support assistance was very slow. So I'm documenting what I learned here. I hope it helps someone.
-<!--break-->
+
 ## Overview
 
 A *custom B2B app* is an iOS app that is distributed through the App Store, but which is only available for purchase by a specific set of customers.  It lets you take advantage of the App Store infrastructure while still restricting distribution of the app.  Thus, it can be an attractive alternative to using the iOS Enterprise Developer Program or ad-hoc deployment to distribute in-house apps.

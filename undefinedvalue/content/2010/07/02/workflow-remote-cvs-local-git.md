@@ -4,6 +4,7 @@ Category: Blog
 Slug: workflow-remote-cvs-local-git
 Alias: 2010/07/02/workflow-remote-cvs-local-git/
 Tags: git, cvs
+AdSense: yes
 
 
 One of my clients uses a [CVS](http://ximbiot.com/cvs/) repository for all its source code. People recognize that there are better options available than CVS, but it's been cranking along fine for 15 years, and they see no compelling reason to change.

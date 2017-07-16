@@ -4,6 +4,7 @@ Category: Blog
 Slug: garmin-forerunner-110-blank-screen
 Alias: 2014/01/14/garmin-forerunner-110-blank-screen/
 Tags: troubleshooting, running, garmin, forerunner
+AdSense: yes
 
 
 I recently purchased a [Garmin Forerunner 110](http://www.amazon.com/Garmin-Forerunner-GPS-Enabled-Sport-Monitor/dp/B003JTLKIA/ref=sr_1_1?s=electronics&ie=UTF8&qid=1389711829&sr=1-1&keywords=garmin+forerunner+110+red) GPS watch to track my runs. I've been happy with it, but today when I plugged it into my computer after a run, the watch screen flashed "Saving activity" and then went blank. The watch was dead after that.

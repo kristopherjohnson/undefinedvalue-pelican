@@ -4,6 +4,7 @@ Category: Blog
 Slug: ios-and-android-icon-sizes
 Alias: 2013/04/05/ios-and-android-icon-sizes/
 Tags: iosdev, androiddev
+AdSense: yes
 
 
 Every once in a while, I have to tell a graphic designer all the sizes needed for iOS and Android icons. So I'm putting together a summary here for easy reference.

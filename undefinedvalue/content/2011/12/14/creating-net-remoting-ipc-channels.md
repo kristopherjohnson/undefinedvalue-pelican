@@ -4,6 +4,7 @@ Category: Blog
 Slug: creating-net-remoting-ipc-channels
 Alias: 2011/12/14/creating-net-remoting-ipc-channels/
 Tags: remoting, .NET
+AdSense: yes
 
 
 Yet another C# code snippet.  I'm developing a service and an accompanying UI that always run on the same physical box, and it was suggested that I implement the communication between them using .NET Remoting and the _IPC_ channel type, which is a supposedly-easy way to get processes on the same machine to talk to one another.

@@ -4,7 +4,7 @@ Category: Blog
 Slug: good-bye-scons-hello-cmake
 Alias: 2008/02/19/good-bye-scons-hello-cmake/
 Tags: scons, cmake, programming
-
+AdSense: yes
 
 <p>
 Last year, I wrote of my <a href="http://kristopherjohnson.blogspot.com/2007/03/scons.html">initial impressions</a> of <a href="http://www.scons.org/">SCons</a> for controlling software builds.  My initial impressions were positive, but even then I was wary of performance issues.
