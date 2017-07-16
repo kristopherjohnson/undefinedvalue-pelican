@@ -42,10 +42,12 @@ Mounting the Volume from the Old Instance
 
 Now I wanted to get my old stuff.  I created a new EBS volume from a snapshot from the old instance's boot volume, in the same availability zone as my new instance.  Then I attached that volume to my new instance as `/dev/sdf`.  To figure out how Ubuntu saw that new device, I ran this command:
 
+    :::bash
     lsblk
 
 which indicated that the available devices were named `xvda` (mounted as `/`) and `xvdf`.  I mounted the volume as `/olddata` using these commands:
 
+    :::bash
     sudo mkdir /olddata
     sudo mount /dev/xvdf /olddata
 
@@ -53,6 +55,7 @@ then a quick `ls /olddata/home/ubuntu` and `ls /olddata/usr/share/drupal6` verif
 
 I created a compressed archive of the volume's contents so I could download it to my laptop for easy browsing and permanent backup:
 
+    :::bash
     sudo tar -zcvf olddata.tar.gz /olddata
 
 The archive was 2.7 GB, and full of lots of stuff I'll never need, but it's good to be thorough.
@@ -63,6 +66,7 @@ Migrating SSH Keys
 
 I copied my SSH keys from the old instance so that I could use GitHub and other resources without generating and uploading new keys:
 
+    :::bash
     cp /olddata/home/ubuntu/.ssh/id_rsa* ~/.ssh
 
 
@@ -71,11 +75,13 @@ Setting Up Git
 
 Git was already included in the Ubuntu install, but I needed to configure the username and email that would be used for any local commits;
 
+    :::bash
     git config --global user.name "Kristopher Johnson"
     git config --global user.email "kris@kristopherjohnson.net"
 
 I also added this setting to squelch an annoying Git warning message:
 
+    :::bash
     git config --global push.default simple
 
 
@@ -88,19 +94,36 @@ My plan is to eventually move the generated page to a GitHub Project Page, so th
 
 I had to install Apache to serve the generated page, and Node, npm, and Make to be able to run the page generator:
 
+    :::bash
     sudo apt-get install apache2 nodejs npm make
 
 My scripts expect to be able to run an executable named "node", but Ubuntu installs `/usr/bin/nodejs`, so I set up a symlink in `/usr/local/bin` to allow "node" to work:
 
+    :::bash
     sudo ln -s /usr/bin/nodejs /usr/local/bin/node
 
 I had to change my script so that it would copy the generated `tcm.html` file to `/var/www/html`, rather than to `/var/www` (which was the correct location for Ubuntu 12.04).
 
 To give the ubuntu account write access to the `/var/www/html` directory, I ran these commands:
 
+    :::bash
     sudo usermod -a -G www-data ubuntu
     sudo chgrp www-data /var/www/html
     sudo chmod g+x /var/www/html
+
+
+Enabling cgi-bin
+----------------
+
+I have some Perl CGI scripts that people depend on.  Here is what I did to enable the `/cgi-bin/` paths:
+
+    :::bash
+    sudo apt-get install libcgi-pm-perl libapache2-mod-perl2
+    sudo a2enmod cgi
+    sudo chgrp www-data /usr/lib/cgi-bin
+    sudo chmod g+w /usr/lib/cgi-bin
+    # ... Move my scripts into /usr/lib/cgi-bin ...
+    sudo service apache2 restart
 
 
 Eliminating Blog Dependencies
