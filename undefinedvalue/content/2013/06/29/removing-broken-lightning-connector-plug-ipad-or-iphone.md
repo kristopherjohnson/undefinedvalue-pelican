@@ -3,6 +3,7 @@ Date: 2013-06-29 18:20:32
 Category: Blog
 Slug: removing-broken-lightning-connector-plug-ipad-or-iphone
 Alias: 2013/06/29/removing-broken-lightning-connector-plug-ipad-or-iphone/
+Tags: lightning, connector, plug, ipad, iphone, broken
 AdSense: yes
 
 

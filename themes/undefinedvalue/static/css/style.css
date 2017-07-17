@@ -111,6 +111,7 @@ ol, ul {
 #post-list {
     margin-bottom: 1rem;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .post-info {
@@ -144,5 +145,9 @@ ul.tags {
     background-position: right center;
     padding-right: 20px;
     background-image: url('../images/feed-icon-14x14.png');
+}
+
+.footer-ad {
+    margin-top: 3rem;
 }
 

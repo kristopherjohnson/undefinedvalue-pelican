@@ -47,6 +47,8 @@
         ga('send', 'pageview');
     </script>
     {% endblock analytics %}
+    {% block page_ad %}
+    {% endblock page_ad %}
 </head>
 <body id="index" class="home">
   <div class="container">
@@ -87,6 +89,9 @@
         <div class="nine columns">
 
         {% block content %}
+        {% endblock %}
+
+        {% block content_ad %}
         {% endblock %}
 
         </div><!-- /.nine columns -->
@@ -132,6 +137,9 @@
     </div><!-- /.row -->
 
   </div><!-- /.container -->
+
+  {% block footer_ad %}
+  {% endblock %}
 </body>
 </html>
 
