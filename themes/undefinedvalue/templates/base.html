@@ -102,10 +102,8 @@
                 <h2>{{ RECENT_ARTICLES_WIDGET_NAME | default('Recent Articles') }}</h2>
                 <ul>
                 {% set recent_articles = all_articles | default(articles) %}
-                {% set recent_articles_count = RECENT_ARTICLES_COUNT | default(10) %}
-                {% set recent_article_count = [recent_articles|length, recent_articles_count] | sort | first %}
-                {% for i in range(recent_article_count) %}
-                    {% set recent_article = recent_articles[i] %}
+                {% set recent_count = [RECENT_ARTICLES_COUNT, recent_articles|length, 20] | sort | first %}
+                {% for recent_article in recent_articles[:recent_count] %}
                     <li><a href="{{ SITEURL }}/{{ recent_article.url }}">{{ recent_article.title }}</a></li>
                 {% endfor %}
                 </ul>
