@@ -35,10 +35,9 @@ MENUITEMS = (('Front Page', '/'),
              ('Tags', '/tags.html'),
              ('Archives', '/archives.html'))
 
-# Featured posts
-FEATURED_ARTICLES = (('Welcome to My Blog', '/welcome-to-my-blog.html'),
-                     ('Self-Reflection', '/self-reflection.html'),)
-FEATURED_ARTICLES_WIDGET_NAME = 'Featured Posts'
+# Recent Posts
+RECENT_ARTICLES_WIDGET_NAME = 'Recent Posts'
+RECENT_ARTICLES_COUNT = 6
 
 # External links
 LINKS = (('Search This Blog', 'https://cse.google.com/cse/publicurl?cx=007851071617878239069:9_ti50l6w7s'),
