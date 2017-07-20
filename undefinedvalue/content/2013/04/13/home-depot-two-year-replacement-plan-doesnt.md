@@ -4,7 +4,7 @@ Category: Blog
 Slug: home-depot-two-year-replacement-plan-doesnt
 Alias: 2013/04/13/home-depot-two-year-replacement-plan-doesnt/
 Tags: rant
-
+AdSense: yes
 
 When I bought a Yard Machines lawn mower from Home Depot last year, I paid for a 2-year repair/replacement plan. I'm pretty sure the plan was presented to me with language like "If it stops working, you just bring it back and we'll replace it." I've had some bad luck with lawn equipment, and the price wasn't high, so it seemed like a good deal.
 
