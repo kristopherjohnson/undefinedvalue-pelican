@@ -15,7 +15,7 @@ Unfortunately, I couldn't resist the desire to play around with upgrading the mi
 
 (Note to self: Test your restore-from-backup plan once in a while, dumbass.)
 
-So, fine, new plan: Create the new nano instance, then attach the old volume to it, then copy whatever is needed from that volume.
+So, fine, new plan: Create the new nano instance, attach the old volume to it, then copy whatever is needed from that volume.
 
 I also wanted my new setup to meet these requirements:
 
@@ -129,9 +129,7 @@ I have some Perl CGI scripts that people depend on.  Here is what I did to enabl
 Eliminating Blog Dependencies
 -----------------------------
 
-My blog is now hosted at GitHub.  However, some articles contain links to images and other files that were served by Drupal on the old server, so I needed to extract those from the old Drupal site directories, put them on GitHub, and update all the links in all the blog entries that refer to them.
-
-(I haven't actually finished this activity.  It will be an ongoing task.)
+My blog is now hosted at GitHub.  However, some articles contain links to images and other files that were served by Drupal on the old server, so I needed to extract those from the old Drupal site directories and copy them to my blog repo.  I was able to use Pelican's [EXTRA_PATH_METDATA](http://docs.getpelican.com/en/stable/settings.html#metadata) settings to give these static files the same URL path that they had in Drupal, so I didn't have to update any links in the blog posts that referred to them.
 
 
 All for Now
