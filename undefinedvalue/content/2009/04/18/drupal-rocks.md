@@ -3,7 +3,7 @@ Date: 2009-04-18 12:51:15
 Category: Blog
 Slug: drupal-rocks
 Alias: 2009/04/18/drupal-rocks/
-Tags: drupal
+Tags: blog, drupal
 
 
 I first dabbled in web development back in the mid 1990's. Back in those dark times, you created web sites by writing raw HTML, or by writing C or Perl CGI scripts. You spent about 1% of your time creating interesting content and behavior, and 99% of your time dinking with site layout, page layout, link updates, database administration, and other "plumbing" issues. I decided web development wasn't for me.

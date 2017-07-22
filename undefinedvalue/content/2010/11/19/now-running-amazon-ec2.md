@@ -3,7 +3,7 @@ Date: 2010-11-19 23:13:19
 Category: Blog
 Slug: now-running-amazon-ec2
 Alias: 2010/11/19/now-running-amazon-ec2/
-Tags: ubuntu, ec2, drupal, admin
+Tags: blog, ubuntu, ec2, drupal, admin
 
 
 This blog is now running in the [Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). I hope that nobody notices any difference.
