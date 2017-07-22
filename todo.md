@@ -1,6 +1,5 @@
 # To-Do
 
-- sitemap
 - show ads on all (?) pages
 - add "nofollow"
 

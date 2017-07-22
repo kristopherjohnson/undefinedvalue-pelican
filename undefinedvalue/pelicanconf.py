@@ -60,9 +60,13 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['pelican_alias', 'neighbors']
+PLUGINS = ['pelican_alias', 'neighbors', 'sitemap']
 
 THEME = '../themes/undefinedvalue'
+
+SITEMAP = {
+    'format': 'xml'
+}
 
 STATIC_PATHS = ['files']
 
