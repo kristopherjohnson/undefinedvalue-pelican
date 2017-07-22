@@ -60,7 +60,7 @@
 {% endblock %}
 
 {% block footer_ad %}
-{% if 'adsense' in article.metadata.keys() %}
+{% if article.date|age_in_days > 30 %}
 <div class="footer-ad">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"

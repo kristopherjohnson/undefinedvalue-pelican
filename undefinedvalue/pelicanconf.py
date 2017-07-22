@@ -64,6 +64,13 @@ PLUGINS = ['pelican_alias', 'neighbors', 'sitemap']
 
 THEME = '../themes/undefinedvalue'
 
+import sys
+sys.path.append('.')
+import ageindays
+JINJA_FILTERS = {
+    'age_in_days': ageindays.age_in_days
+}
+
 SITEMAP = {
     'format': 'xml'
 }
