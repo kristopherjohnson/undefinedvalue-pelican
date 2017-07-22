@@ -1,8 +1,8 @@
 # To-Do
 
-- robots.txt
 - sitemap
 - show ads on all (?) pages
+- add "nofollow"
 
 ## Ongoing
 

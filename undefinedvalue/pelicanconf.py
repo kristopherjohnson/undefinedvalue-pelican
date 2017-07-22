@@ -67,6 +67,7 @@ THEME = '../themes/undefinedvalue'
 STATIC_PATHS = ['files']
 
 EXTRA_PATH_METADATA = {
+    'files/robots.txt': { 'path': 'robots.txt' },
     'files/CellGradientBackground.png':
         { 'path': 'sites/undefinedvalue.com/files/CellGradientBackground.png' },
     'files/Copy_File_Paths_to_Clipboard.png':
