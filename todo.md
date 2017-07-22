@@ -1,6 +1,5 @@
 # To-Do
 
-- show ads on all (?) pages
 - add "nofollow"
 
 ## Ongoing
