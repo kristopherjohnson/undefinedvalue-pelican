@@ -59,17 +59,10 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['pelican_alias', 'neighbors', 'sitemap']
+PLUGIN_PATHS = ['../plugins', '../pelican-plugins']
+PLUGINS = ['age_in_days', 'pelican_alias', 'neighbors', 'sitemap']
 
 THEME = '../themes/undefinedvalue'
-
-import sys
-sys.path.append('.')
-import ageindays
-JINJA_FILTERS = {
-    'age_in_days': ageindays.age_in_days
-}
 
 SITEMAP = {
     'format': 'xml'
