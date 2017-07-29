@@ -81,6 +81,9 @@
             {% endfor %}
           {% endif %}
         {% endif %}
+        {% if DISPLAY_SEARCH_ON_MENU %}
+          <li><a href="{{ SITEURL }}/search.html">Search</a></li>
+        {% endif %}
         </ul></nav><!-- /#menu -->
     </div><!-- /.row -->
 

@@ -40,8 +40,7 @@ RECENT_ARTICLES_WIDGET_NAME = 'Recent Posts'
 RECENT_ARTICLES_COUNT = 6
 
 # External links
-LINKS = (('Search This Blog', 'https://cse.google.com/cse/publicurl?cx=007851071617878239069:9_ti50l6w7s'),
-         ("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
+LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
          ('GitHub', 'https://github.com/kristopherjohnson'),
          ('Bitbucket', 'https://bitbucket.org/KristopherJohnson/'))
 LINKS_WIDGET_NAME = 'Other Stuff'
@@ -53,6 +52,8 @@ SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
           ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
 SOCIAL_WIDGET_NAME = 'Follow'
+
+DISPLAY_SEARCH_ON_MENU = True
 
 DEFAULT_PAGINATION = 10
 
