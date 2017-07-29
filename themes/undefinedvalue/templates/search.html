@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Search | {{ SITENAME }}{%endblock%}
+
+{% block content %}
+<section id="sitesearch" class="body">
+    <header>
+        <h2>Search</h2>
+    </header>
+    <div class="customsearch">
+        <script>
+        (function() {
+            var cx = '007851071617878239069:9_ti50l6w7s';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+        </script>
+        <gcse:search></gcse:search>
+    </div><!-- /.sitesearch -->
+</section>
+{% endblock %}
