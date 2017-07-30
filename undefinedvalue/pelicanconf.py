@@ -14,6 +14,8 @@ TIMEZONE = 'US/Eastern'
 
 DEFAULT_LANG = 'en'
 
+DEFAULT_DATE_FORMAT = '%Y-%m-%d (%a)'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -37,7 +39,7 @@ MENUITEMS = (('Front Page', '/'),
 
 # Recent Posts
 RECENT_ARTICLES_WIDGET_NAME = 'Recent Posts'
-RECENT_ARTICLES_COUNT = 6
+RECENT_ARTICLES_COUNT = 5
 
 # External links
 LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
