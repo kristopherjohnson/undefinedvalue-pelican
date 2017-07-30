@@ -1,6 +1,6 @@
 Title: Emacs for OS X
 Date: 2004-10-13 22:58
-Author: Kristopher Johnson (noreply@blogger.com)
+Author: Kristopher Johnson
 Tags: mac, emacs
 Slug: emacs-for-os-x
 

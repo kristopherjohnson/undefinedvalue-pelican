@@ -1,6 +1,6 @@
 Title: Sprinting to the Finish
 Date: 2004-10-20 05:05
-Author: Kristopher Johnson (noreply@blogger.com)
+Author: Kristopher Johnson
 Tags: managing
 Slug: sprinting-to-the-finish
 
