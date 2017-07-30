@@ -1,4 +1,4 @@
-Title: My Résumé
+Title: My Résumé
 Slug: kjresume
 Alias: /page/kjresume
 Date: 2017-07-04 21:16
