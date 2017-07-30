@@ -60,7 +60,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-DIRECT_TEMPLATES = ['index', 'tags', 'archives', 'search']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'search']
 
 PLUGIN_PATHS = ['../plugins', '../pelican-plugins']
 PLUGINS = ['age_in_days', 'pelican_alias', 'neighbors', 'sitemap']
