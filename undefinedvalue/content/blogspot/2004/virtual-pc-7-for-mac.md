@@ -1,6 +1,6 @@
 Title: Virtual PC 7 for Mac
 Date: 2004-10-30 19:25
-Author: Kristoper Johnson
+Author: Kristopher Johnson
 Tags: virtualpc, mac, microsoft
 Slug: virtual-pc-7-for-mac
 
