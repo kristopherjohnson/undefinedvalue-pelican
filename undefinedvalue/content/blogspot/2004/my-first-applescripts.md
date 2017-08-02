@@ -34,7 +34,10 @@ Script Menu. Here's the script, which I saved as "Open Clipboard
 Location in iTunes.scpt" in `~/Library/Scripts`:
 
     :::applescript
-    tell application "iTunes"  set theLocation to (the clipboard as text)  open location theLocationend tell
+    tell application "iTunes"
+        set theLocation to (the clipboard as text)
+        open location theLocation
+    end tell
 
 Very simple, like it should be.
 
