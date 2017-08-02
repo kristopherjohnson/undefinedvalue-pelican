@@ -10,8 +10,7 @@ mean to look at myself. Before I realize who I am looking at, my first
 impression is often that the guy looks pretty dull-witted, tired, and
 unhappy. I hope that's not how others see me.
 
-There have been occasions when I am reading the [C2
-wiki](http://c2.com/cgi/wiki), and suddenly realize I am reading
+There have been occasions when I am reading the [C2 wiki](http://c2.com/cgi/wiki), and suddenly realize I am reading
 something that I wrote myself long ago. Thankfully, the impressions I
 get from reading my own writing are more positive than those I get from
 looking at my face. Sometimes I cringe a little, and many of my opinions

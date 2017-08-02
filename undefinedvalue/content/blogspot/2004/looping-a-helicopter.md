@@ -1,0 +1,106 @@
+Title: Looping a Helicopter
+Date: 2004-11-07 23:50
+Author: Kristopher Johnson
+Tags: helicopter
+Slug: looping-a-helicopter
+
+In the movie *Blue Thunder*, one of the plot devices used to build up
+the mystique of Roy Scheider's character is his claim to have looped a
+helicopter, which everyone else says is impossible. For years, I
+believed looping a helicopter must be impossible (movies are all true,
+aren't they?), but it's not. When I got involved in RC helicopters, I
+was amazed to see model helicopters doing loops, rolls, inverted flight,
+and all sorts of other "impossible" maneuvers.
+
+For an example, see [this video](http://www.augustoheli.com/videostuff/videoarchive/AlanSzabo/alan_vegasfunflydemo_2004.zip).
+If you've never seen something like this before, you'll think you're
+watching a special effects demo reel. Laws of physics are seemingly
+violated, but it's all real. Full-size helicopters are capable of these
+feats too, if they are rigged the right way. I suspect that when people
+report seeing aircraft doing 90-degree turns over Area 51, they're not
+seeing alien spacecraft: they're watching experimental helicopters.
+Helicopter aerobatics make the most sophisticated airplane aerobatics
+look boring.
+
+Of course, I've wanted to do these maneuvers with my own RC helicopter.
+The first helicopter I bought, the Ikarus Piccolo, was incapable of such
+maneuvers. My current helicopter, the Hornet II, is capable. The
+difference is that the Hornet features *collective pitch control*. The
+thrust produced by a helicopter's rotor blades is dependent on two
+things: the speed at which the rotor is turning, known as the *head
+speed* and controlled by the throttle, and the angle of attack of the
+blades with the air, known as the *blade pitch*. These throttle and
+blade-pitch controls are known as the *collective*. As the head speed
+increases, the lift produced by the blades increases, just like an
+airplane's wing increases lift as its speed increases. Increasing the
+angle of attack also increases lift. The Piccolo has fixed-pitch rotor
+blades, meaning that the angle of attack never changes, so lift is
+determined solely by the throttle. However, the Hornet can control both
+the throttle and the pitch, providing for a greater degree of control
+over lift. Collective pitch also provides quicker response, as changing
+the pitch of blades can happen almost instantaneously, but speeding up
+or slowing down the head speed takes some time.
+
+To fly inverted (upside down), a helicopter pilot adjusts the blade
+pitch so that it is opposite of normal blade pitch. This is called
+*negative pitch*. Most real-world helicopters provide some degree of
+negative pitch, which is needed for certain high-performance maneuvers
+and for landing in high winds. However, real-world helicopters do not
+provide enough negative pitch to hover or fly inverted. They could be
+rigged for more negative pitch, but manufacturers do not want the
+liability associated with certifying their helicopters for aerobatic
+flight. In contrast, RC helicopters with collective pitch usually are
+capable of inverted flight.
+
+I first tried loops and rolls a few months ago, without much success. I
+was able to roll successfully a few times, but I also crashed a few
+times. My attempts to loop never worked out: I would end up with a messy
+flip and recovery, or I would end up walking across the field to pick up
+the pieces. The problem was that I didn't have enough *cyclic* power,
+which is what controls left-right rolling and forward-backward pitch.
+The helicopter just wouldn't turn over fast enough to get back to level
+flight before hitting the ground.
+
+I read of two potential fixes to this problem. The first fix was a
+higher head speed. Higher head speeds increase the responsiveness of the
+helicopter, but also make it more jumpy and difficult to control. The
+second fix was addition of a Bell-Hiller mixer, which increases the
+power of the cyclic, but also makes the helicopter more jumpy and
+difficult to control. To smooth out the additional jumpiness, I added
+weighted rotor blades, which stabilize the helicopter by increasing the
+gyroscopic effect of the rotor.
+
+I made these changes two months ago, but hadn't been able to try them
+out. We had a few hurricanes blow through, which really screwed up our
+weather for a few weeks. Then work ate up all my free time. Last week, I
+finally tried it out. I was rusty, so I just did some simple hovering
+and a few figure-eights. It was definitely a lot more responsive to the
+controls, so much so that I had difficulty keeping it under control. i
+did manage to keep it in the air for thirty minutes, and take it home
+intact.
+
+During the week, a made a few adjustments to my transmitter. I made the
+cyclic control less sensitive and increased rudder sensitivity (I had
+noticed difficulty getting the heli to turn sharply). I also did a lot
+of practicing with the Reflex XTR simulator.
+
+Today, I gave it another try. The air was calm when I packed up and got
+in my car, but by the time I arrived at the flying site, there was a 10
+MPH wind. Undeterred, I lifted off and did some easy flying for a while.
+The wind was strong, but steady, so I figured I could try some crazy
+stuff. I flew into the wind, went into a climb, applied negative pitch
+as it went over the top of the loop, then leveled out. It wasn't pretty,
+but it was a loop. I did a few more. None of them were pretty, and the
+wind was too strong for me to know how they would look in steady wind,
+but it was a lot easier than I expected. To tempt fate, I also did a
+couple of rolls, and they were without incident.
+
+So now I officially classify myself as an "intermediate" RC helicopter
+pilot. Whenever we have a calm day, I'll try some inverted hovering,
+which is what the Real Men do.
+
+[UPDATE: Later in the day, I did my inverted hovering and a few more
+loops and rolls. Unfortunately, I crashed during a simple right-side-up
+hovering maneuver. I'm now waiting for $85 worth of replacement parts
+before I can try again.]
+
