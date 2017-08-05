@@ -51,6 +51,9 @@
     {% endblock page_ad %}
 </head>
 <body id="index" class="home">
+  {% block header_ad %}
+  {% endblock %}
+
   <div class="container">
 
     <div class="row">
@@ -91,10 +94,10 @@
 
         <div class="nine columns">
 
-        {% block content %}
+        {% block content_ad %}
         {% endblock %}
 
-        {% block content_ad %}
+        {% block content %}
         {% endblock %}
 
         </div><!-- /.nine columns -->
