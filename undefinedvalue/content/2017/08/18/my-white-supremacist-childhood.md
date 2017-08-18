@@ -20,7 +20,7 @@ It would be easy to dismiss such events as a "Southern thing", but whenever we w
 
 I don't recount these events to shame anyone.  All the people involved in raising me were kind, generous people who made me feel happy and secure.  I love them and thank them.  I know some will consider my telling of these stories to be shockingly impolite.  I hope you will forgive me, but I'm not going to apologize.
 
-It doesn't matter whether you think you're racist:  there is racism.  Systemic racism exists  White people are the ones who perpetuate it.  Non-white people are the ones who suffer its effects.
+It doesn't matter whether you think you're racist:  there is racism.  Systemic racism exists.  White people are the ones who perpetuate it.  Non-white people are the ones who suffer its effects.
 
 We are so steeped in it that we don't even notice it, just as we don't notice air or gravity.  It seems to just be the way things are.  We say we hate racism, but we keep it going.
 
