@@ -16,7 +16,7 @@ Even if you think their post is harmful, and an unsolicited response is warrante
 
 There are some good old-fashioned rules of courtesy we should all follow when engaging others in conversation:
 
-- If you want to talk to somebody you don't know, politely introduce yourself first, or ask a mutual acquaintance to introduce you.
+- If you want to talk to somebody you don't know, politely introduce yourself first, or ask a mutual acquaintance to introduce you.  Say something nice before you start disagreeing.
 - If the other person doesn't want to talk to you, leave them alone.
 - Be kind.  Don't twist the other person's words unfairly.  Assume the other person is as intelligent and nice as you are, and is as interested in finding the right answers as you are.
 - If you are angry, consider taking a break to cool down instead of saying something hurtful.
