@@ -4,7 +4,7 @@ Date: 2017-09-22 18:59:49.847890
 Category: Blog
 Tags: rant
 
-The Internet has made it easy for anyone to say whatever they want to say to a worldwide audience.  This is great.  Some people have decided that if they don't like something that somebody else has posted, it is their right and/or obligation to respond and attack.  That's not so great.
+The Internet has made it easy for anyone to say whatever they want to say to a worldwide audience.  This is great.  Some people have decided that if they don't like something that somebody else has posted, it is their right and obligation to insult and attack those people.  That's not so great.
 
 Everything on the Internet is not directed at _you_.  If you don't like it, maybe it's just _not for you_.  _You_ don't need to respond.
 
