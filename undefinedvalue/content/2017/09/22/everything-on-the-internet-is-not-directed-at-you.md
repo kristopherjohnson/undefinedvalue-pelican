@@ -12,13 +12,13 @@ A post on the Internet is usually not an invitation to debate.  Most people just
 
 Leave those people alone.  They probably aren't hurting anybody.  If they aren't your friends, and they aren't asking for replies, they probably won't welcome yours.
 
-Even if you think their post is harmful, and an unsolicited response is necessary, you may not know the whole context.  That post may be part of a larger conversation to which you are not a party.  That post may be directed to someone else.  The poster may have a very different point of view.  The poster may have just had a bad day.
+Even if you think their post _is_ harmful, and an unsolicited response _is_ necessary, consider that you may not know the whole context.  That post may be part of a larger conversation to which you are not a party.  The poster may assume the reader has some background knowledge that you don't have.  The poster may have a very different point of view from yours.  The poster may just be having a bad day.
 
 There are some good old-fashioned rules of courtesy we should all follow when engaging others in conversation:
 
-- If you want to talk to somebody you don't know, politely introduce yourself first, or ask a mutual acquaintance to introduce you.  Say something nice before you start disagreeing.
+- If you want to talk to somebody you don't know, politely introduce yourself first, or ask a mutual acquaintance to introduce you.  Say something nice before you start describing your disagreements.
 - If the other person doesn't want to talk to you, leave them alone.
-- Be kind.  Don't twist the other person's words unfairly.  Assume the other person is as intelligent and nice as you are, and is as interested in finding the right answers as you are.
+- Be kind.  Don't twist the other person's words unfairly.  Assume the other person is as intelligent and well-meaning as you are, and is as interested in finding the right answers as you are.
 - If you are angry, consider taking a break to cool down instead of saying something hurtful.
 - Don't demand that any person explain things or provide an education for you.  If you can find the answers you want with Google, then do that instead of wasting someone's time.
 - Once you've made your case or said your piece, you can stop.
