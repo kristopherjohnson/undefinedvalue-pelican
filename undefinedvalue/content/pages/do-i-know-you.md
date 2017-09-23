@@ -10,4 +10,6 @@ If I have written or shared something that you find offensive, please consider t
 
 If the only thing you have to tell me is that I am a fool, full of shit, a horse's ass, un-American, intolerant, hypocritical, self-righteous, Socialist, or Communist, please understand I am already aware of these facts.  You are wasting your time repeating them.
 
-If I've misjudged your intent, I'm sorry.  I am really a pretty nice guy.  I work hard.  I have five dogs.  I like old movies and bourbon.  I play guitar badly.  Please don't hate me just because I posted something you don't like.  I'd be glad to get to know you, but only if you can be nice.
+I am probably a nicer guy than whoever you pictured when you saw that post that made you mad.  I'm a middle-aged guy who wishes he was younger.  I have five dogs.  I like old movies and bourbon.  I play guitar badly.  I ran a marathon a few years ago, and want to do it again.  Please don't hate me just because I posted something you don't like.
+
+If I've misjudged your intent, I'm sorry.  I'd be glad to get to know you, but only if you can be nice.
