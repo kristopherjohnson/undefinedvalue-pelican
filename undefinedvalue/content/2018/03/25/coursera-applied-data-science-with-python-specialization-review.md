@@ -9,7 +9,7 @@ I recently completed Coursera's [Applied Data Science with Python][specializatio
 This specialization is a series of five courses, each of which focuses on some aspect of using Python for data-science applications.  Each course is focused on use of one or more free Python libraries. The courses and the libraries covered by each are
 
 1. Introduction to Data Science in Python: [NumPy][numpy], [SciPy][scipy], and [Pandas][pandas]
-2. Applied Plotting, Charting, & Data Representation in Python: [Matplotlib][matplotlib] and [Seaborn][seaborn]
+2. Applied Plotting, Charting, & Data Representation in Python: [Matplotlib][matplotlib] and [seaborn][seaborn]
 3. Applied Machine Learning in Python: [scikit-learn][sklearn]
 4. Applied Text Mining in Python: [NLTK][nltk] and [Gensim][gensim]
 5. Applied Social Network Analysis in Python: [NetworkX][networkx]
