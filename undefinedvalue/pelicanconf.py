@@ -49,8 +49,8 @@ LINKS_WIDGET_NAME = 'Other Stuff'
 
 # Social networks
 SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
+          ('Mastodon', 'https://mastodon.xyz/web/accounts/159318'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
-          ('Pinboard', 'https://pinboard.in/u:OldManKris'),
           ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
           ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
 SOCIAL_WIDGET_NAME = 'Follow'
