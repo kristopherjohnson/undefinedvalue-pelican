@@ -70,11 +70,12 @@ class Pygments(Directive):
         parsed = highlight('\n'.join(self.content), lexer, formatter)
         return [nodes.raw('', parsed, format='html')]
 
+
 directives.register_directive('code-block', Pygments)
 directives.register_directive('sourcecode', Pygments)
 
 
-_abbr_re = re.compile('\((.*)\)$', re.DOTALL)
+_abbr_re = re.compile(r'\((.*)\)$', re.DOTALL)
 
 
 class abbreviation(nodes.Inline, nodes.TextElement):
@@ -89,5 +90,6 @@ def abbr_role(typ, rawtext, text, lineno, inliner, options={}, content=[]):
     abbr = text[:m.start()].strip()
     expl = m.group(1)
     return [abbreviation(abbr, abbr, explanation=expl)], []
+
 
 roles.register_local_role('abbr', abbr_role)

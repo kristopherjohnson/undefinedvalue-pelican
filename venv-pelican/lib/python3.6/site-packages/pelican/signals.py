@@ -27,6 +27,7 @@ article_writer_finalized = signal('article_writer_finalized')
 
 page_generator_init = signal('page_generator_init')
 page_generator_finalized = signal('page_generator_finalized')
+page_generator_write_page = signal('page_generator_write_page')
 page_writer_finalized = signal('page_writer_finalized')
 
 static_generator_init = signal('static_generator_init')
@@ -47,4 +48,5 @@ content_object_init = signal('content_object_init')
 
 # Writers signals
 content_written = signal('content_written')
+feed_generated = signal('feed_generated')
 feed_written = signal('feed_written')

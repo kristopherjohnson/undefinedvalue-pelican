@@ -36,8 +36,17 @@ class URLWrapper(object):
     @property
     def slug(self):
         if self._slug is None:
-            self._slug = slugify(self.name,
-                                 self.settings.get('SLUG_SUBSTITUTIONS', ()))
+            class_key = '{}_REGEX_SUBSTITUTIONS'.format(
+                self.__class__.__name__.upper())
+            if class_key in self.settings:
+                self._slug = slugify(
+                    self.name,
+                    regex_subs=self.settings[class_key])
+            else:
+                self._slug = slugify(
+                    self.name,
+                    regex_subs=self.settings.get(
+                        'SLUG_REGEX_SUBSTITUTIONS', []))
         return self._slug
 
     @slug.setter
@@ -56,8 +65,8 @@ class URLWrapper(object):
         return hash(self.slug)
 
     def _normalize_key(self, key):
-        subs = self.settings.get('SLUG_SUBSTITUTIONS', ())
-        return six.text_type(slugify(key, subs))
+        subs = self.settings.get('SLUG_REGEX_SUBSTITUTIONS', [])
+        return six.text_type(slugify(key, regex_subs=subs))
 
     def __eq__(self, other):
         if isinstance(other, self.__class__):
@@ -112,33 +121,13 @@ class URLWrapper(object):
 
 
 class Category(URLWrapper):
-    @property
-    def slug(self):
-        if self._slug is None:
-            substitutions = self.settings.get('SLUG_SUBSTITUTIONS', ())
-            substitutions += tuple(self.settings.get('CATEGORY_SUBSTITUTIONS',
-                                                     ()))
-            self._slug = slugify(self.name, substitutions)
-        return self._slug
+    pass
 
 
 class Tag(URLWrapper):
     def __init__(self, name, *args, **kwargs):
         super(Tag, self).__init__(name.strip(), *args, **kwargs)
 
-    @property
-    def slug(self):
-        if self._slug is None:
-            substitutions = self.settings.get('SLUG_SUBSTITUTIONS', ())
-            substitutions += tuple(self.settings.get('TAG_SUBSTITUTIONS', ()))
-            self._slug = slugify(self.name, substitutions)
-        return self._slug
-
 
 class Author(URLWrapper):
-    @property
-    def slug(self):
-        if self._slug is None:
-            self._slug = slugify(self.name,
-                                 self.settings.get('AUTHOR_SUBSTITUTIONS', ()))
-        return self._slug
+    pass
