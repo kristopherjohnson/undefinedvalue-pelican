@@ -14,11 +14,20 @@ help:
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
+	@echo
+	@echo 'Run "source venv-pelican/bin/activate" before executing any commands.     '
 	@echo '                                                                          '
 
 newpost:
 	./bin/newpost.py
 
+# Run these commands to recreate the virtual environment:
+#
+#   rm -rf venv-pelican
+#   python3 -m venv venv-pelican
+#   source venv-pelican/bin/activate
+#   make pip-install
+#   
 pip-install:
 	pip install -r pip-requirements.txt
 

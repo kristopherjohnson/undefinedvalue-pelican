@@ -1,4 +1,5 @@
 pelican
 Markdown
 pelican-alias
+pelican-neighbors
 

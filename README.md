@@ -7,7 +7,7 @@ First, run this command to enable the virtual Python 3 environment that has Peli
 
     source venv-pelican/bin/activate
 
-(If you can't or won't use the virtual environment, you need to `pip install pelican pelican-alias markdown`.)
+(If you can't or won't use the virtual environment, you need to `pip install pelican pelican-alias pelican-neighbors markdown`.)
 
 To create a new post:
 
