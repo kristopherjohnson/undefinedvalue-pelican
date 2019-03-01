@@ -8,7 +8,7 @@ A couple of years ago, I wrote [My First Chess Program](my-first-chess-program.h
 
 But that was a couple of years ago.  I'm not interested in Swift anymore (Swift is fine; it just doesn't interest me), but I have been learning [Rust](https://www.rust-lang.org), and I thought translating TSCP's [C](https://en.wikipedia.org/wiki/C_(programming_language)) code to Rust would be a way to both learn more about Rust and to study how a better chess engine works.
 
-The result is available here: [tscp-rust](https://github.com/kristopherjohnson/tscp-rust).  Tom Kerrigan has given me permission to distribute my translation, but note that he still holds the copyright, and any additional redistribution is under his terms.
+The result is available here: <https://github.com/kristopherjohnson/tscp-rust>.  Tom Kerrigan has given me permission to distribute my translation, but note that he still holds the copyright, and any additional redistribution is under his terms.
 
 A lot of Rust's syntax is inspired by C, so the guts of the program look very similar.  I decided early to do as straightforward a translation as I could, without any re-design or changes to make it more "Rust-like".  However, I also wanted to minimize the amount of `unsafe` code (in the Rust sense), so I did tinker with a couple of data structures, and moved the global variables into a `struct` that gets passed between functions.
 
