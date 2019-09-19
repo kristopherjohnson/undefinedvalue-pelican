@@ -20,6 +20,7 @@ help:
 
 newpost:
 	./bin/newpost.py
+.PHONY: newpost
 
 # Run these commands to recreate the virtual environment:
 #
@@ -28,8 +29,15 @@ newpost:
 #   source venv-pelican/bin/activate
 #   make pip-install
 #   
+# Alternatively, to create an Anaconda environment:
+#
+#   conda create --name undefinedvalue pip
+#   conda activate undefinedvalue
+#   make pip-install
+#
 pip-install:
 	pip install -r pip-requirements.txt
+.PHONY: pip-install
 
 # For any unknown target, pass it down to undefinedvalue/Makefile
 %::
