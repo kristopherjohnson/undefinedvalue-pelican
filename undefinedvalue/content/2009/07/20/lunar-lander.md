@@ -28,3 +28,4 @@ Since then, there have not been very many days that I have not been playing arou
 
 Thank you, Mom and Dad, and also thank you to the nameless, bearded guys who invited me to join their game.
 
+**Update (2019-09-21):** I tracked down the original source code to this game, and ported it to C and Rust. See [LUNAR for C and Rust](lunar-for-c-and-rust.html)
