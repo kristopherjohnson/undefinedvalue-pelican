@@ -8,8 +8,8 @@ I'm not looking for a job right now, but my résumé is available at Stack Overf
 
 You can download it in various formats using these links:
 
-- [Microsoft Word format (docx)]({filename}/files/kjresume_2017.docx)
-- [Portable Document Format (PDF)]({filename}/files/kjresume_2017.pdf)
-- [Rich Text Format (RTF)]({filename}/files/kjresume_2017.pdf)
-- [Plain Text]({filename}/files/kjresume_2017.txt)
+- [Microsoft Word format (docx)]({static}/files/kjresume_2017.docx)
+- [Portable Document Format (PDF)]({static}/files/kjresume_2017.pdf)
+- [Rich Text Format (RTF)]({static}/files/kjresume_2017.rtf)
+- [Plain Text]({static}/files/kjresume_2017.txt)
 
