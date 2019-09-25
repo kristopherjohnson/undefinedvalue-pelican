@@ -1,7 +1,7 @@
 Title: About Me
 Category: About Me
 Date: 2017-06-04 12:00
-Modified: 2017-07-16 18:21
+Modified: 2019-09-24 20:32
 Alias: /page/about-me/
 
 Kris developed an early interest in computers. His father worked for IBM, and Kris fondly remembers visits to Dad's office to see all the glowing screens. At the age of 13, Kris received an Atari 800 computer for Christmas, and quickly taught himself Basic and assembly language so that he could make simple videogames and also make fun of Commodore 64 users.
@@ -14,7 +14,7 @@ Kris then spent several years working in the gaming industry, developing systems
 
 In 2006, Kris became an independent contractor.. The bulk of his time was spent doing contract work for a former employer, including mobile app development for iOS and Android, web applications, and back-end application servers.
 
-In 2007, Kris met a wonderful woman named _Pebble_, and in 2008 they married. Kris currently lives in northern Georgia with Pebble, stepson Bailey, and five little dogs. He's very happy there.
+In 2007, Kris met a wonderful woman named _Pebble_, and in 2008 they married. Kris currently lives in northern Georgia with Pebble, stepson Bailey, and four little dogs. He's very happy there.
 
 Since early 2015, Kris has been working for [Mobile Labs](http://www.mobilelabsinc.com/), developing tools for enterprise iOS and Android mobile-app development and testing.
 
