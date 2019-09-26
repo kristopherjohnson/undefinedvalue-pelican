@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "undefinedvalue"
+		},
+		{
+			"path": "themes"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/output": true
+		}
+	}
+}
