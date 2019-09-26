@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "venv-pelican/bin/python3",
+    "files.exclude": {
+        ".gitmodules": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "pelican-plugins": true,
+        "undefinedvalue/output": true,
+        "venv-pelican": true
+    }
+}

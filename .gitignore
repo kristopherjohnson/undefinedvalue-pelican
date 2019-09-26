@@ -64,5 +64,4 @@ local.properties
 __pycache__
 *.pyc
 output
-.vscode
 
