@@ -2,7 +2,7 @@ Title: My Résumé
 Slug: kjresume
 Alias: /page/kjresume
 Date: 2017-07-04 21:16
-Modified: 2019-10-19 19:26
+Modified: 2019-11-19 19:26
 
 I'm not looking for a job right now, but my résumé is available at Stack Overflow Careers: <http://careers.stackoverflow.com/kristopherjohnson>.
 
