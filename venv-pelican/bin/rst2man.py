@@ -1,6 +1,6 @@
 #!/Users/kdj/work/undefinedvalue-pelican/venv-pelican/bin/python3
 
-# Author: 
+# Author:
 # Contact: grubert@users.sf.net
 # Copyright: This module has been placed in the public domain.
 
