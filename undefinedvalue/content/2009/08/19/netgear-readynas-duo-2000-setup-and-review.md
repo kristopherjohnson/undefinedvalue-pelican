@@ -6,7 +6,7 @@ Alias: 2009/08/19/netgear-readynas-duo-2000-setup-and-review/
 Tags: sysadmin, review, readynas, netgear, backups
 
 
-I have previously written about my [backup strategy](http://undefinedvalue.com/2007/10/26/backups). I've never really worried about backups too much. In the 30 years I've been using computers, I've never lost a hard drive.
+I have previously written about my [backup strategy](https://undefinedvalue.com/2007/10/26/backups). I've never really worried about backups too much. In the 30 years I've been using computers, I've never lost a hard drive.
 
 ...until last weekend. My wife's MacBook Air was displaying some funny behavior, so I ran Disk Utility on it. Disk Utility said the drive had problems, so I clicked *Repair Disk*, and it would not boot thereafter. I called Apple, and their expert told me I'd have to erase the drive and reinstall the operating system. We had no backups for that machine. My wife was not happy to lose everything. And of course, it is *my* fault she had no backups. (I've told her about Time Machine, but she didn't believe it could really be that easy to set up, so she never did.)
 

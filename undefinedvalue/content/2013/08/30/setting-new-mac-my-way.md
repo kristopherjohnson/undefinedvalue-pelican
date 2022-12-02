@@ -10,7 +10,7 @@ Over the past couple of weeks, I've set up a few Mac OS X machines to do develop
 
 (I could streamline the process even more by cloning an existing drive or virtual machine, but I'd rather install everything from scratch to avoid the presence of old cruft.)
 
-As a reminder to myself, and to help out anyone else who needs to do this, here is my procedure for setting up an OS X machine [the way I like it](http://undefinedvalue.com/2012/06/15/my-setup):
+As a reminder to myself, and to help out anyone else who needs to do this, here is my procedure for setting up an OS X machine [the way I like it](https://undefinedvalue.com/2012/06/15/my-setup):
 
 0. Install/re-install OS X.
 0. During the OS X setup process, use the same login account name and password that I use on other computers, and provide the Apple IDs for iCloud and iTunes (which are different, in my case).
@@ -86,4 +86,4 @@ As a reminder to myself, and to help out anyone else who needs to do this, here 
 
 Then to verify everything is ready to go, I use Git to grab the source code for an iOS app, and build it and run it, and then do the same for an Android app.
 
-(For my Windows setup, see [Setting Up Windows, My Way](http://undefinedvalue.com/2013/12/22/setting-windows-my-way).)
+(For my Windows setup, see [Setting Up Windows, My Way](https://undefinedvalue.com/2013/12/22/setting-windows-my-way).)

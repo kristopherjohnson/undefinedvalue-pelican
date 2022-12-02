@@ -39,4 +39,4 @@ And when I want to reformat things from the command line, this works:
 
     formatjson <ugly.json >pretty.json
 
-If you'd rather have a web page that does this, see [A Web Page for Reformatting JSON Text](http://undefinedvalue.com/2013/03/02/web-page-reformatting-json-text).
+If you'd rather have a web page that does this, see [A Web Page for Reformatting JSON Text](https://undefinedvalue.com/2013/03/02/web-page-reformatting-json-text).

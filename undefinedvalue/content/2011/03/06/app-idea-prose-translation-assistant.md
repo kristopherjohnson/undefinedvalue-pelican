@@ -6,7 +6,7 @@ Alias: 2011/03/06/app-idea-prose-translation-assistant/
 Tags: idea
 
 
-(This is just an _idea_. As I explain my post about [Why I Loved The Social Network](http://undefinedvalue.com/2011/02/26/why-i-loved-social-network), I think ideas are cheap, so if you want to "steal" this idea and make the app, I heartily support you.)
+(This is just an _idea_. As I explain my post about [Why I Loved The Social Network](https://undefinedvalue.com/2011/02/26/why-i-loved-social-network), I think ideas are cheap, so if you want to "steal" this idea and make the app, I heartily support you.)
 
 A friend has started a personal project to translate the works of Jules Verne from the original French into English, as he is dissatisfied with the existing English translations. He is going about it pretty much the way I would: he has a browser window open with the original French text, a browser window with Google Translate, and a text editor where he is writing the English translation. He also has a French-English dictionary on hand.
 

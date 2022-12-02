@@ -6,7 +6,7 @@ Alias: 2013/12/22/setting-windows-my-way/
 Tags: windows
 
 
-This is a companion piece to my [Setting Up a New Mac, My Way](http://undefinedvalue.com/2013/08/30/setting-new-mac-my-way) entry. Thankfully, I haven't had to use Windows much in the past couple of years, but when I do have to set up a Windows machine for some task that requires it, I want to have a list of things to do to minimize the pain.
+This is a companion piece to my [Setting Up a New Mac, My Way](https://undefinedvalue.com/2013/08/30/setting-new-mac-my-way) entry. Thankfully, I haven't had to use Windows much in the past couple of years, but when I do have to set up a Windows machine for some task that requires it, I want to have a list of things to do to minimize the pain.
 
 (This is a work in progress. It will evolve every time I go through the setup process, and every time I have to work around some annoying Windows limitation.)
 

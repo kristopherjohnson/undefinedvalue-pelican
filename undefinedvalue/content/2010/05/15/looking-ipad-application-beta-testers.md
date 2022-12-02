@@ -20,4 +20,4 @@ To be a beta tester, you will have to give me your iPad's UDID (unique device id
 0. Select your iPad in the Devices list in iTunes and click the Summary tab
 0. Click the word "Serial Number" next to the picture of your iPad. It will change to "Identifier (UDID)" and there will be a long string of letters and digits after it
 0. From the Edit menu, choose the Copy command. (This will copy the letters and digits to the clipboard.)
-0. Paste the UDID into an email to me, saying that you want to be a beta tester. If you don't know my email address, use the [Contact Me](http://undefinedvalue.com/contact) form.
+0. Paste the UDID into an email to me, saying that you want to be a beta tester. If you don't know my email address, use the [Contact Me](https://undefinedvalue.com/contact) form.

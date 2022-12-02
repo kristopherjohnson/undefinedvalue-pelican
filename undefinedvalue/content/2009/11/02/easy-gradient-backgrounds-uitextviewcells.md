@@ -32,34 +32,34 @@ Open the `RootViewController.m` source file, and replace the `tableView:numberOf
 
     - (NSInteger)tableView:(UITableView *)tableView
      numberOfRowsInSection:(NSInteger)section {
-        
+
         return 1000;
     }
 
     - (UITableViewCell *)tableView:(UITableView *)tableView
              cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-        
+
         static NSString *CellIdentifier = @"Cell";
-        
+
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
                                           reuseIdentifier:CellIdentifier];
             [cell autorelease];
         }
-    
+
         int rowIndex = indexPath.row;
         cell.textLabel.text = [NSString stringWithFormat:@"Row %d",
                                rowIndex];
         cell.detailTextLabel.text = [NSString stringWithFormat:@"This is the detail text for row %d",
                                      rowIndex];
-    
+
         return cell;
     }
 
 Build and run the project, and you'll see this:
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/NoGradient.png" alt="App with no gradient">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/NoGradient.png" alt="App with no gradient">
 
 Not bad, but it would look more interesting if, instead of the flat white table cells, we had three-dimensional-looking gradient backgrounds on those cells.
 
@@ -68,14 +68,14 @@ Not bad, but it would look more interesting if, instead of the flat white table 
 
 First, we'll need a background image.  You can look at the [How To Make Ultra-Slick Gradient UITableView Cells](http://maniacdev.com/2009/10/how-to-make-ultra-slick-gradient-uitableview-cells/) article to see how to make one of these from scratch, using Adobe Photoshop Elements, but here's an image you can steal directly from this page:
 
-<a href="http://undefinedvalue.com/sites/undefinedvalue.com/files/CellGradientBackground.png"><img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/CellGradientBackground.png" alt="CellGradientBackground.png"></a>
+<a href="https://undefinedvalue.com/sites/undefinedvalue.com/files/CellGradientBackground.png"><img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/CellGradientBackground.png" alt="CellGradientBackground.png"></a>
 
 Add this image to your project, or create your own background image if you're so-inclined.
 
 
 ## Adding the GradientTableViewCell class
 
-Grab the source files [GradientTableViewCell.h](http://undefinedvalue.com/sites/undefinedvalue.com/files/GradientTableViewCell.h) and [GradientTableViewCell.m](http://undefinedvalue.com/sites/undefinedvalue.com/files/GradientTableViewCell.m), and add them to your project.
+Grab the source files [GradientTableViewCell.h](https://undefinedvalue.com/sites/undefinedvalue.com/files/GradientTableViewCell.h) and [GradientTableViewCell.m](https://undefinedvalue.com/sites/undefinedvalue.com/files/GradientTableViewCell.m), and add them to your project.
 
 `GradientTableViewCell` overrides two methods of `UITableViewCell`.  First, we override the `initWithStyle:reuseIdentifier:` method so that it adds the gradient background image, stretching it to fill the cell.
 
@@ -94,12 +94,12 @@ Grab the source files [GradientTableViewCell.h](http://undefinedvalue.com/sites/
 Then, we have to override the `setSelected:animated:` method.  The inherited method sets the cell's subviews' background colors, but we want the subviews to have transparent backgrounds so that the gradient background shows through:
 
     - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    
+
         [super setSelected:selected animated:animated];
-    
+
         for (UIView *view in self.contentView.subviews) {
             view.backgroundColor = [UIColor clearColor];
-        }    
+        }
     }
 
 
@@ -124,7 +124,7 @@ to this:
 
 Build and run the project, and you should get this:
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/WithGradient.png" alt="With gradient">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/WithGradient.png" alt="With gradient">
 
 See, easy!
 

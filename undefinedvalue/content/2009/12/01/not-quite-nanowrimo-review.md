@@ -6,7 +6,7 @@ Alias: 2009/12/01/not-quite-nanowrimo-review/
 Tags: selfindulgence
 
 
-Last month, I [committed to do a lot of writing](http://undefinedvalue.com/2009/11/01/not-quite-nanowrimo). Let's see how I did.
+Last month, I [committed to do a lot of writing](https://undefinedvalue.com/2009/11/01/not-quite-nanowrimo). Let's see how I did.
 
 I was going to write one blog entry per day. I actually did 22 entries during the 30-day month of November. Not 100%, but not too bad.
 

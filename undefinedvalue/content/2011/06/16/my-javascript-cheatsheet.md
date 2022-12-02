@@ -6,11 +6,11 @@ Alias: 2011/06/16/my-javascript-cheatsheet/
 Tags: jquery, javascript, cheatsheet
 
 
-A couple of times per year, I have to work on something that requires me to write some [JavaScript](http://en.wikipedia.org/wiki/JavaScript). When I do, I have to reacquaint myself with the language by skimming through [_JavaScript: The Good Parts_]( http://undefinedvalue.com/2009/11/29/javascript-good-parts) and finding some good online reference documentation.
+A couple of times per year, I have to work on something that requires me to write some [JavaScript](http://en.wikipedia.org/wiki/JavaScript). When I do, I have to reacquaint myself with the language by skimming through [_JavaScript: The Good Parts_]( https://undefinedvalue.com/2009/11/29/javascript-good-parts) and finding some good online reference documentation.
 
 In an effort to reduce the time needed to do this next time, I'm recording the little things that I ran across that I didn't remember or wished I could have found faster. So this is my own personal refresher for JavaScript. It may not help you at all.
 
-Also see my [Node.js Cheatsheet](http://undefinedvalue.com/2012/11/20/nodejs-cheatsheet).
+Also see my [Node.js Cheatsheet](https://undefinedvalue.com/2012/11/20/nodejs-cheatsheet).
 
 ## Reference Links
 
@@ -22,7 +22,7 @@ Also see my [Node.js Cheatsheet](http://undefinedvalue.com/2012/11/20/nodejs-che
    * [Array](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array), [Boolean](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean), [Date](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date), [Error](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Error), [Function](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function), [Math](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Math), [Number](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Number), [Object](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object), [RegExp](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/RegExp), [String](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String)
 * Douglas Crockford: [Code Conventions](http://javascript.crockford.com/code.html), [Private Members](http://javascript.crockford.com/private.html)
 * [Essential JavaScript Patterns for Beginners](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-* [jQuery Docs](http://docs.jquery.com/Main_Page), [Getting Started with jQuery](http://docs.jquery.com/Tutorials:Getting_Started_with_jQuery), [Quick and Dirty Guide to QUnit](http://undefinedvalue.com/2009/12/06/quick-and-dirty-guide-qunit)
+* [jQuery Docs](http://docs.jquery.com/Main_Page), [Getting Started with jQuery](http://docs.jquery.com/Tutorials:Getting_Started_with_jQuery), [Quick and Dirty Guide to QUnit](https://undefinedvalue.com/2009/12/06/quick-and-dirty-guide-qunit)
 * [Microsoft Ajax Library Client Reference](http://msdn.microsoft.com/en-us/library/bb397536.aspx)
 * [DOM Level 1](http://www.w3.org/TR/2000/WD-DOM-Level-1-20000929/)
 * [DOM Level 2 Core](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html), [DOM Level 2 Events]( http://www.w3.org/TR/2000/REC-DOM-Level-2-Events-20001113/events.html), [DOM Level 2 HTML](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/html.html)

@@ -6,7 +6,7 @@ Alias: 2009/11/29/javascript-good-parts/
 Tags: review, javascript, book
 
 
-As a result of the recent [hubbub about web apps](http://undefinedvalue.com/2009/11/25/native-apps-vs-web-apps), I decided to get myself up to speed on JavaScript and CSS. Knowing [Douglas&nbsp;Crockford's](http://www.crockford.com/javascript/) reputation as the JavaScript guru, I read his book, entitled *[JavaScript: The Good Parts](http://oreilly.com/catalog/9780596517748)*.
+As a result of the recent [hubbub about web apps](https://undefinedvalue.com/2009/11/25/native-apps-vs-web-apps), I decided to get myself up to speed on JavaScript and CSS. Knowing [Douglas&nbsp;Crockford's](http://www.crockford.com/javascript/) reputation as the JavaScript guru, I read his book, entitled *[JavaScript: The Good Parts](http://oreilly.com/catalog/9780596517748)*.
 
 It's a good book. The basic idea is that while JavaScript is actually a pretty cool little programming language, it has a lot of features that are best not used, and it has many outright flaws, so Crockford presents a recommended subset of the language.
 

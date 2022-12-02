@@ -6,7 +6,7 @@ Alias: 2014/05/28/web-page-reformatting-json-text-using-angularjs/
 Tags: json, angularjs
 
 
-A little over a year ago, I published [A Web Page for Reformatting JSON Text](http://undefinedvalue.com/2013/03/02/web-page-reformatting-json-text), which is a simple web page for pretty-printing JSON data. I'm now learning [AngularJS](https://angularjs.org), so as an exercise I reimplemented the page using Angular rather than the original's [jQuery](http://jquery.com).
+A little over a year ago, I published [A Web Page for Reformatting JSON Text](https://undefinedvalue.com/2013/03/02/web-page-reformatting-json-text), which is a simple web page for pretty-printing JSON data. I'm now learning [AngularJS](https://angularjs.org), so as an exercise I reimplemented the page using Angular rather than the original's [jQuery](http://jquery.com).
 
 This version is a little nicer than the original in the following ways:
 
@@ -31,4 +31,4 @@ If don't know anything about AngularJS, but are curious about it, look at the so
 - The [ng-bind](https://docs.angularjs.org/api/ng/directive/ngBind) attribute attached to the second `textarea` element binds its content to the value of the `outputText` variable, and the [ng-class](https://docs.angularjs.org/api/ng/directive/ngClass) attribute binds its CSS class to the value of the `outputClass` variable.
 - The  [ng-options](https://docs.angularjs.org/api/ng/directive/select) and [ng-model](https://docs.angularjs.org/api/ng/directive/ngModel) directives on the `select` element bind it to the `indentOptions` and `selectedIndentOption` variable.
 - In the controller code, we set initial values for the `inputText`, `indentOptions`, and `selectedInputOption` variables, and then use [$scope.$watch()](https://docs.angularjs.org/api/ng/type/$rootScope.Scope) to update the values of `outputText` and `outputClass` whenever any of the inputs change.
- 
+

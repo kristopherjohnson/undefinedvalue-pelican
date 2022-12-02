@@ -6,7 +6,7 @@ Alias: 2009/05/20/twitter-about-content-not-contact/
 Tags: twitter
 
 
-<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/iStock_000001485226XSmall.jpg" alt="Toy Bird"></div>
+<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/iStock_000001485226XSmall.jpg" alt="Toy Bird"></div>
 
 [Twitter](http://twitter.com) is getting a lot of attention from the mainstream media.  A lot of people are trying it out, but they don't understand what they are supposed to do with it, they don't see any value in it, and they give up quickly.
 

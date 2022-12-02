@@ -30,7 +30,7 @@ My longer-term plan is to experiment with Docker containers and other mechanisms
 Creating the New Instance
 -------------------------
 
-I referred to my original [Drupal-on-EC2](http://undefinedvalue.com/setting-drupal-6-ubuntu-1010-ec2.html) post while setting up the new nano instance.  I did basically the same thing, except that I started with Amazon's "Ubuntu Server 16.04 LTS (HVM)" AMI, and chose the "t2.nano" instance type. 
+I referred to my original [Drupal-on-EC2](https://undefinedvalue.com/setting-drupal-6-ubuntu-1010-ec2.html) post while setting up the new nano instance.  I did basically the same thing, except that I started with Amazon's "Ubuntu Server 16.04 LTS (HVM)" AMI, and chose the "t2.nano" instance type.
 
 I set up the a new security group that allows SSH and HTTP/HTTPS from outside.
 

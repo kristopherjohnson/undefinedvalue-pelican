@@ -6,7 +6,7 @@ Alias: 2009/11/08/authenticating-google-app-engine/
 Tags: iphone, googleappengine, cocoa
 
 
-I've finally got around to doing some work on that iPhone application that I've [committed to finishing this month](http://undefinedvalue.com/2009/11/01/not-quite-nanowrimo).
+I've finally got around to doing some work on that iPhone application that I've [committed to finishing this month](https://undefinedvalue.com/2009/11/01/not-quite-nanowrimo).
 
 On days I do a lot of work on the app, I don't feel obligated to work too hard on the blog, but I will post a little something about whatever I worked on. Today, I got my iPhone app to connect to a [Google App Engine](http://code.google.com/appengine/docs/whatisgoogleappengine.html)-based web site.
 

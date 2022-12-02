@@ -6,7 +6,7 @@ Tags: blog, drupal, mysql, pelican, python
 
 I've moved this blog from a [Drupal](https://www.drupal.org) CMS running on an AWS EC2 instance to a statically generated set of pages hosted on [GitHub Pages](https://pages.github.com).  If you're curious about the reasons and the process, read on.
 
-For several years, my blog has been running on Drupal 6.  Drupal [seemed like a good idea when I started](http://undefinedvalue.com/2009/04/18/drupal-rocks), as it was a mature easy-to-use content management system, but I've been wanting to get away from it for a while.  I spend more time maintaining Drupal then I do writing articles for the blog.  When I started I had to do [a lot of work](http://undefinedvalue.com/2010/11/12/setting-drupal-6-ubuntu-1010-ec2) to get Drupal configured and running well.  There are always new versions and security updates to apply, and I really should have upgraded to Drupal 7 and then Drupal 8 somewhere along the way, but I haven't and now I can't update to newer versions of Ubuntu. The care and feeding of Drupal is too much work for the benefits it provides for my simple blog.
+For several years, my blog has been running on Drupal 6.  Drupal [seemed like a good idea when I started](https://undefinedvalue.com/2009/04/18/drupal-rocks), as it was a mature easy-to-use content management system, but I've been wanting to get away from it for a while.  I spend more time maintaining Drupal then I do writing articles for the blog.  When I started I had to do [a lot of work](https://undefinedvalue.com/2010/11/12/setting-drupal-6-ubuntu-1010-ec2) to get Drupal configured and running well.  There are always new versions and security updates to apply, and I really should have upgraded to Drupal 7 and then Drupal 8 somewhere along the way, but I haven't and now I can't update to newer versions of Ubuntu. The care and feeding of Drupal is too much work for the benefits it provides for my simple blog.
 
 I decided to move to a static site generator, as I don't need dynamic features and I want to avoid the pain of setting up any more CMSes or blogging engines on any server.
 
@@ -67,7 +67,7 @@ I briefly thought about writing my own SSG, but my goal here was to get my blog 
 - [Cactus](https://github.com/eudicots/Cactus)
 - [Hyde](http://hyde.github.io)
 - [Pelican](http://getpelican.com)
- 
+
 Cactus didn't work with Python&nbsp;3. It almost worked, but the blog plugin wasn't compatible with Python&nbsp;3, and after I fixed that, it generated an empty index page.  With Python 2, it worked, but its blog plugin didn't support the directory hierarchy I wanted to maintain.  Rather than fix these issues, I moved on to the next candidate.
 
 Hyde didn't support Python&nbsp;3. (The website says Python&nbsp;3 support is "in progress".)  I gave it a try anyway, and while I didn't hate it, I really want something that works with Python&nbsp;3 and doesn't require a lot of configuration.  (For every YAML file I see, I expect at least one hour of messing around with it.)
@@ -114,7 +114,7 @@ One problem I ran into was that the `simple` framework had an empty (0 bytes) `t
 Publishing the New Site
 -----------------------
 
-I had already set up my personal `kristopherjohnson.github.io` repo as a GitHub Pages site.  I set up a Makefile rule that would copy the output from Pelican to that local repo, commit the change, and then push that repo to GitHub.  
+I had already set up my personal `kristopherjohnson.github.io` repo as a GitHub Pages site.  I set up a Makefile rule that would copy the output from Pelican to that local repo, commit the change, and then push that repo to GitHub.
 
 So, all I have to do to regenerate the site and push it to the cloud is this:
 

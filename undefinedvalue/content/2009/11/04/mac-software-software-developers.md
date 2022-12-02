@@ -38,7 +38,7 @@ Some other development-related tools that you might find useful are these:
 - Scientific and programmers calculator: [Magic Number Machine](http://projectswithlove.com/magicnumbermachine/)
 - Apache, MySQL, PHP: [MAMP](http://www.mamp.info/en/index.html)
 - Java development: Eclipse or NetBeans
-- Nirvana: [Emacs](http://undefinedvalue.com/2009/09/12/building-emacs-source-mac-os-x)
+- Nirvana: [Emacs](https://undefinedvalue.com/2009/09/12/building-emacs-source-mac-os-x)
 
 Here are the other pieces of software that you should consider:
 

@@ -6,7 +6,7 @@ Alias: 2013/11/02/my-htc-one-review/
 Tags: review, htcone, htc, android
 
 
-I've been an iPhone user for the past five years, except for a [few weeks](http://undefinedvalue.com/2011/09/11/my-visit-android-land) in 2011 when I used an Android phone to see how good it was. At that time, my evaluation was that Android was a second-rate knock-off of iOS.
+I've been an iPhone user for the past five years, except for a [few weeks](https://undefinedvalue.com/2011/09/11/my-visit-android-land) in 2011 when I used an Android phone to see how good it was. At that time, my evaluation was that Android was a second-rate knock-off of iOS.
 
 But, with the releases of Android 4.0 "Ice Cream Sandwich" and 4.1 "Jelly Bean", Android got a lot less ugly, and hardware is finally fast enough that it doesn't feel so slow. Because I make about half my income from Android app development, I decided it was time to give Android another try as my personal phone. I vowed to put the iPhone away, buy a top-of-the-line Android phone, and use it for at least 12 months. My goal was to immerse myself in the Android ecosystem and learn how "regular people" use their Android phones.
 

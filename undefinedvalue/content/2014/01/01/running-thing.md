@@ -6,7 +6,7 @@ Alias: 2014/01/01/running-thing/
 Tags: running
 
 
-A year ago, I was proud of [running a 10K](http://undefinedvalue.com/2013/01/01/couch-potato-running-10k-few-months). Since then, I've run two half marathons, and I am currently preparing to run the [2014 Publix Georgia Marathon](http://www.georgiamarathon.com/) in March.
+A year ago, I was proud of [running a 10K](https://undefinedvalue.com/2013/01/01/couch-potato-running-10k-few-months). Since then, I've run two half marathons, and I am currently preparing to run the [2014 Publix Georgia Marathon](http://www.georgiamarathon.com/) in March.
 
 Here are some things I've learned along the way:
 

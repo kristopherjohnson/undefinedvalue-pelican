@@ -8,11 +8,11 @@ Tags: samplecode, iphone, iosdev, coreanimation
 
 As an exercise in using the [Core Animation](http://en.wikipedia.org/wiki/Core_Animation) API, I've implemented a little iPhone app that reproduces the behavior of the iPhone home screen's icon reorganization interface. (You know, dragging the wiggly icons around.) You can download my sample code to see how it works. Some descriptions of the highlights follow below.
 <!--break-->
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/Tiles_Screenshot.png" alt="Screenshot" style="float: right;">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/Tiles_Screenshot.png" alt="Screenshot" style="float: right;">
 
 The source code and Xcode project can be downloaded here: [tilessample](https://github.com/kristopherjohnson/tilessample/zipball/master).
 
-Source is also available on [GitHub](https://github.com/kristopherjohnson/tilessample). 
+Source is also available on [GitHub](https://github.com/kristopherjohnson/tilessample).
 
 The primary classes to look at are [`TilesViewController`](http://github.com/kristopherjohnson/tilessample/blob/master/Classes/TilesViewController.m) and [`Tile`](http://github.com/kristopherjohnson/tilessample/blob/master/Classes/Tile.m). The view controller implements all of the "logic" of the application, while the `Tile` class has the animations.
 

@@ -7,7 +7,7 @@ Tags: webdav, ubuntu
 AdSense: yes
 
 
-I'm looking at using [WPKG](http://wpkg.org/) as a mechanism for distributing software updates to client workstations.  WPKG appears to be a pretty nice system, but it has one big downside: one has to set up a WebDAV-enabled server if the updates are to be pulled from the Internet instead of from a local shared directory.  So I've spent a few hours learning the intricacies of  setting up WebDAV on [my Ubuntu-based Internet server](http://undefinedvalue.com/2010/11/12/setting-drupal-ubuntu-1010-ec2) and accessing it from Windows machines.  Here's what I learned.
+I'm looking at using [WPKG](http://wpkg.org/) as a mechanism for distributing software updates to client workstations.  WPKG appears to be a pretty nice system, but it has one big downside: one has to set up a WebDAV-enabled server if the updates are to be pulled from the Internet instead of from a local shared directory.  So I've spent a few hours learning the intricacies of  setting up WebDAV on [my Ubuntu-based Internet server](https://undefinedvalue.com/2010/11/12/setting-drupal-ubuntu-1010-ec2) and accessing it from Windows machines.  Here's what I learned.
 <!--break-->
 I started by following the steps here: [How To Set Up WebDAV With Apache2 On Ubuntu 9.04](http://www.howtoforge.com/how-to-set-up-webdav-with-apache2-on-ubuntu-9.04).
 

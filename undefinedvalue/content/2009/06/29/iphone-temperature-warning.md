@@ -8,6 +8,6 @@ Tags: iphone
 
 In case you're curious: here's what you'll see if you rescue your iPhone from a hot car:
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/temperaturewarning.png" alt="iPhone Temperature Warning Image" />
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/temperaturewarning.png" alt="iPhone Temperature Warning Image" />
 
 _Appel d'urgence_ indeed!

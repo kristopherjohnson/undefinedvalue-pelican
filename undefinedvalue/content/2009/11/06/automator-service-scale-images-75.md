@@ -28,4 +28,4 @@ Add these actions:
 
 Save the service as "Scale Images by 75%".
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/Scale_Images_by_75_percent.png" alt="Picture">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/Scale_Images_by_75_percent.png" alt="Picture">

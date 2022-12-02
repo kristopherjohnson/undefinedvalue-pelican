@@ -36,4 +36,4 @@ Add these actions:
 
 Save it, and name it "Copy File Paths to Clipboard".
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/Copy_File_Paths_to_Clipboard.png" alt="Picture">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/Copy_File_Paths_to_Clipboard.png" alt="Picture">

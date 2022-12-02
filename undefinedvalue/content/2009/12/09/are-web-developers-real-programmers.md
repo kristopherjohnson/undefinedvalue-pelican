@@ -5,7 +5,7 @@ Slug: are-web-developers-real-programmers
 Alias: 2009/12/09/are-web-developers-real-programmers/
 
 
-The [native-vs.-webapp hubbub](http://undefinedvalue.com/2009/11/25/native-apps-vs-web-apps) from a couple of weeks ago got me thinking about why "web developers" are looked down upon by "real programmers."
+The [native-vs.-webapp hubbub](https://undefinedvalue.com/2009/11/25/native-apps-vs-web-apps) from a couple of weeks ago got me thinking about why "web developers" are looked down upon by "real programmers."
 <!--break-->
 I'll admit that I've held that prejudice myself. I looked at client-side web development back in the mid 1990's and decided that it wasn't for me. The web browsers of the time were primitive, and every one acted differently. The situation was a big mess.
 

@@ -6,7 +6,7 @@ Alias: 2013/01/01/couch-potato-running-10k-few-months/
 Tags: running, rant, c25k
 
 
-In August, I started running after a few years of sitting on the couch. I ran the [Peachtree Road Race](http://undefinedvalue.com/2007/07/04/peachtree-road-race-2007) back in 2007, then stopped running completely shortly thereafter. My post-40 physical decline has been distressing, so I decided I needed to get back into doing something active.
+In August, I started running after a few years of sitting on the couch. I ran the [Peachtree Road Race](https://undefinedvalue.com/2007/07/04/peachtree-road-race-2007) back in 2007, then stopped running completely shortly thereafter. My post-40 physical decline has been distressing, so I decided I needed to get back into doing something active.
 
 Just as I started thinking "Maybe I should start running again," I ran across a mention of the [Couch-to-5K](http://www.coolrunning.com/engine/2/2_3/181.shtml) running plan in a blog. The core idea is that the plan *very gradually* builds up your endurance. Too many people decide "I need to start running," then go out and run a couple of miles, and then wake up in pain the following morning and decide they will never run again. C25K starts you off alternating between 60 seconds of jogging and 90 seconds of walking the first week, then 90 seconds of jogging and two minutes of walking the second week, then keeps bumping up the jogging time and reducing the walking time until you are running for 30 minutes straight.
 

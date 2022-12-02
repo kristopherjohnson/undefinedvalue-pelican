@@ -6,7 +6,7 @@ Alias: 2009/11/25/android-maybe-not/
 Tags: android
 
 
-A couple of days ago, I said I was considering [giving up on iPhone development and trying Android instead](http://undefinedvalue.com/2009/11/19/switching-away-apple). Here are my further thoughts along those lines.
+A couple of days ago, I said I was considering [giving up on iPhone development and trying Android instead](https://undefinedvalue.com/2009/11/19/switching-away-apple). Here are my further thoughts along those lines.
 <!--break-->
 First, I downloaded the Android SDK, did a little reading, and went through the *Hello, world!* tutorial to bring up an app in the Android simulator. I didn't go too far beyond that. The Android SDK is all based on Java and XML, which are two things I don't like much, but on the whole it looked like a reasonable set of tools and software frameworks.
 

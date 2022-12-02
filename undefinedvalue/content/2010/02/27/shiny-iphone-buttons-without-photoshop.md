@@ -6,7 +6,7 @@ Alias: 2010/02/27/shiny-iphone-buttons-without-photoshop/
 Tags: tutorial, samplecode, iphone, iosdev, coreanimation
 
 
-<img style="float: right;" src="http://undefinedvalue.com/sites/undefinedvalue.com/files/GradientButtonsAppScreenshot.png" alt="Screenshot">
+<img style="float: right;" src="https://undefinedvalue.com/sites/undefinedvalue.com/files/GradientButtonsAppScreenshot.png" alt="Screenshot">
 
 Newcomers to iPhone development are sometimes surprised at how ugly the standard button controls are. They quickly learn that they need a graphic artist to create a nice-looking button image in Photoshop and then attach that to the buttons. However, in this tutorial, I'll show how to create nice shiny buttons in code, without any image files, by using a `CAGradientLayer`.
 <!--break-->
@@ -25,7 +25,7 @@ You can also follow along by looking at the source files in your web browser:
 
 ### Creating the Buttons in Interface Builder
 
-<img style="float: left;" src="http://undefinedvalue.com/sites/undefinedvalue.com/files/GradientButtonsInterfaceBuilder.png" alt="Interface Builder screenshot">
+<img style="float: left;" src="https://undefinedvalue.com/sites/undefinedvalue.com/files/GradientButtonsInterfaceBuilder.png" alt="Interface Builder screenshot">
 
 We'll start by laying out a view containing buttons. In Xcode, create a new View-based iPhone application, and call it "GradientButtons" (or whatever you want). Double-click the `GradientButtonsViewController.xib` resource to open it in Interface&nbsp;Builder.
 

@@ -4,7 +4,7 @@ Date: 2017-07-22 10:58
 Category: Blog
 Tags: blog, pelican, jinja, python
 
-With my [new blog setup](http://undefinedvalue.com/rebuilding-my-blog-again.html), I decided to give [Google AdSense](https://en.wikipedia.org/wiki/AdSense) a try.  I don't have many regular readers, but I do have a few pages that attract search-engine traffic.  So, to monetize those older pages without shoving ads in my regular readers' faces, I decided to show ads on posts that were over a month old.  That should be easy enough to add to the [article.html](https://github.com/kristopherjohnson/undefinedvalue-pelican/blob/master/themes/undefinedvalue/templates/article.html) template:
+With my [new blog setup](https://undefinedvalue.com/rebuilding-my-blog-again.html), I decided to give [Google AdSense](https://en.wikipedia.org/wiki/AdSense) a try.  I don't have many regular readers, but I do have a few pages that attract search-engine traffic.  So, to monetize those older pages without shoving ads in my regular readers' faces, I decided to show ads on posts that were over a month old.  That should be easy enough to add to the [article.html](https://github.com/kristopherjohnson/undefinedvalue-pelican/blob/master/themes/undefinedvalue/templates/article.html) template:
 
     {% if article.date|age_in_days > 30 %}
         <!-- ... Include AdSense code ... -->

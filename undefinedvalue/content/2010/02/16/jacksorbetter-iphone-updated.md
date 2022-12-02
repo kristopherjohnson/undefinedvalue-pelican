@@ -6,7 +6,7 @@ Alias: 2010/02/16/jacksorbetter-iphone-updated/
 Tags: jacksorbetter, iphone
 
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/jb-screenshot-small.png" alt="JacksOrBetter Screenshot" style="float: right;">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/jb-screenshot-small.png" alt="JacksOrBetter Screenshot" style="float: right;">
 
 Version 1.1 of JacksOrBetter for the iPhone and iPod&nbsp;Touch is now available, and it's still free. If you have an iPhone or iPod&nbsp;Touch, you can get it from [the App&nbsp;Store](http://itunes.apple.com/us/app/jacksorbetter-video-poker/id290542821?mt=8).
 

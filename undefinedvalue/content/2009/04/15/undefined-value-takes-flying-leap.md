@@ -6,7 +6,7 @@ Alias: 2009/04/15/undefined-value-takes-flying-leap/
 Tags: blogging
 
 
-For the last five years, http://kristopherjohnson.blogspot.com/ has been the home of my blog, _Undefined&nbsp;Value_.  Blogspot is a great free platform for bloggers to get their feet wet, but I've decided I want to have a "real blog" on a website I control, so _Undefined&nbsp;Value_ now lives at http://undefinedvalue.com/.
+For the last five years, http://kristopherjohnson.blogspot.com/ has been the home of my blog, _Undefined&nbsp;Value_.  Blogspot is a great free platform for bloggers to get their feet wet, but I've decided I want to have a "real blog" on a website I control, so _Undefined&nbsp;Value_ now lives at https://undefinedvalue.com/.
 
 I intend to get more serious about blogging. We'll see how that goes.
 

@@ -22,4 +22,4 @@ Choose **Copy Current UTC Timestamp to Clipboard** from the Services menu, then 
 0. Add a **Copy to Clipboard** action.
 0. Choose **File -> Save** and name it "Copy Current UTC Timestamp to Clipboard"
 
-<img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/Copy_UTC_Timestamp_to_Clipboard.png" alt="Screenshot">
+<img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/Copy_UTC_Timestamp_to_Clipboard.png" alt="Screenshot">

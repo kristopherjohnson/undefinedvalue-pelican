@@ -6,7 +6,7 @@ Alias: 2010/01/02/jacksorbetter-web-app/
 Tags: jquery, javascript, jacksorbetter
 
 
-A little over a year ago, I created my first iPhone app, [JacksOrBetter](http://undefinedvalue.com/2008/09/07/jacksorbetter-iphone-and-ipod-touch). As an exercise in learning CSS, JavaScript, and jQuery, I've created a web-based version of JacksOrBetter.
+A little over a year ago, I created my first iPhone app, [JacksOrBetter](https://undefinedvalue.com/2008/09/07/jacksorbetter-iphone-and-ipod-touch). As an exercise in learning CSS, JavaScript, and jQuery, I've created a web-based version of JacksOrBetter.
 
 - http://jacksorbetterpoker.appspot.com/
 <!--break-->
@@ -21,5 +21,5 @@ While this app is basically functional now, there are still a lot of features an
 While this app works fine in a desktop browser, I'm really targeting it at the iPhone and similar platforms. Right now, it is a bit sluggish on iPhone. I'm going to start playing with [jQTouch](http://www.jqtouch.com/) to give it more of a native-app feel.
 
 One nifty feature that does work on the iPhone is that, after initial loading from the web, it can be run while offline.
- 
+
 I'd be interested to hear how well it works on Android and Palm Pre. It works on the emulators, but I don't have actual devices to test. Please let me know.

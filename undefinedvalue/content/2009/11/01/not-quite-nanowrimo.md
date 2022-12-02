@@ -6,7 +6,7 @@ Alias: 2009/11/01/not-quite-nanowrimo/
 Tags: selfindulgence
 
 
-<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="http://undefinedvalue.com/sites/undefinedvalue.com/files/iStock_000002585519XSmall.jpg" alt="Picture"></div>
+<div style="float: right; margin-left: 10px; margin-bottom: 10px;"><img src="https://undefinedvalue.com/sites/undefinedvalue.com/files/iStock_000002585519XSmall.jpg" alt="Picture"></div>
 
 I've often dreamed of participating in [NaNoWriMo](http://www.nanowrimo.org/eng/whatisnano), the National Novel Writing Month, in which people pledge to write a novel during the month of November. Unfortunately, I'm not really a novel-writing guy. I could maybe write a short story or two, but I'm just not enough of a writer to generate 2,000 words of fiction per day.
 

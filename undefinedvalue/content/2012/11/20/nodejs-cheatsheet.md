@@ -8,7 +8,7 @@ Tags: node, javascript, cheatsheet
 
 I am learning about [node.js](http://nodejs.org). This is my cheatsheet. It may not be useful to you at all.
 
-Also see [My JavaScript Cheatsheet](http://undefinedvalue.com/2011/06/16/my-javascript-cheatsheet).
+Also see [My JavaScript Cheatsheet](https://undefinedvalue.com/2011/06/16/my-javascript-cheatsheet).
 <!--break-->
 ## Documentation
 
