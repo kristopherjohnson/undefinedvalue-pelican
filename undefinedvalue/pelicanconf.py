@@ -6,7 +6,7 @@ AUTHOR = 'Kristopher Johnson'
 SITENAME = 'Undefined Value'
 SITESUBTITLE = "Kris Johnson's Blog"
 SITEURL = ''
-COPYRIGHT_NOTICE = '© 2003-2020 Kristopher Johnson'
+COPYRIGHT_NOTICE = '© 2003-2022 Kristopher Johnson'
 
 PATH = 'content'
 
@@ -48,11 +48,11 @@ LINKS = (("What's Good on TCM?", 'http://secretspacelab.com/tcm.html'),
 LINKS_WIDGET_NAME = 'Other Stuff'
 
 # Social networks
-SOCIAL = (('Twitter', 'http://twitter.com/OldManKris'),
-          ('Mastodon', 'https://mastodon.xyz/web/accounts/159318'),
+SOCIAL = (('Mastodon', 'https://mastodon.xyz/@oldmankris'),
           ('Stack Overflow', 'http://stackoverflow.com/users/1175/kristopher-johnson'),
+          ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),
           ('Flickr', 'https://www.flickr.com/photos/kristopherjohnson/'),
-          ('LinkedIn', 'http://www.linkedin.com/in/kristopherdjohnson'),)
+          ('Twitter', 'http://twitter.com/OldManKris'))
 SOCIAL_WIDGET_NAME = 'Follow'
 
 DISPLAY_SEARCH_ON_MENU = True
