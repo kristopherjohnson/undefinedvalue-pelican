@@ -28,7 +28,7 @@ newpost:
 #   python3 -m venv venv-pelican
 #   source venv-pelican/bin/activate
 #   make pip-install
-#   
+#
 # Alternatively, to create an Anaconda environment:
 #
 #   conda create --name undefinedvalue pip
@@ -38,6 +38,10 @@ newpost:
 pip-install:
 	pip install -r pip-requirements.txt
 .PHONY: pip-install
+
+venv-pelican:
+	python3 -m venv venv-pelican
+	source venv-pelican/bin/activate && $(MAKE) pip-install
 
 # For any unknown target, pass it down to undefinedvalue/Makefile
 %::
