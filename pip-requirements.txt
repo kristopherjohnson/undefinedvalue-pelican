@@ -2,4 +2,4 @@ pelican
 Markdown
 pelican-alias
 pelican-neighbors
-
+pelican-sitemap
