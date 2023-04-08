@@ -5,7 +5,6 @@ Date: 2017-07-04 21:16
 Modified: 2023-04-08 13:00
 
 I'm not actively looking for a job right now, but my résumé is available online.
-
 You can download it in various formats using these links:
 
 - [Microsoft Word format (docx)](https://raw.githubusercontent.com/kristopherjohnson/resume/main/formats/kjresume.docx)
