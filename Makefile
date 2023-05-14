@@ -1,3 +1,11 @@
+DOCKER:=docker
+
+DOCKER_NAME:=oldmankris/pelican
+DOCKER_TAG:=latest
+DOCKER_BUILD_PLATFORM:=linux/arm/v7,linux/arm64/v8,linux/amd64
+
+DOCKER_BUILD_FLAGS:=--squash --no-cache
+
 help:
 	@echo 'Usage:                                                                    '
 	@echo '   make newpost                        make a new post                    '
@@ -42,6 +50,21 @@ pip-install:
 venv-pelican:
 	python3 -m venv venv-pelican
 	source venv-pelican/bin/activate && $(MAKE) pip-install
+
+# Run "make github" using a Docker image
+github-with-docker:
+	$(DOCKER) run -it --rm -v $(pwd):/app -v ~/.ssh:/root.ssh $(DOCKER_NAME):$(DOCKER_TAG) "cd /app && make github"
+.PHONY: run-docker
+
+# Build the Docker image needed by `github-with-docker`
+build-docker:
+	$(DOCKER) build $(DOCKER_BUILD_FLAGS) -t $(DOCKER_NAME):$(DOCKER_TAG) .
+.PHONY: build-docker
+
+# Build and push multi-architecture image needed by `github-with-docker` up to registry.
+push-docker:
+	$(DOCKER) buildx build --push --platform $(DOCKER_BUILD_PLATFORM) --tag $(DOCKER_NAME):$(DOCKER_TAG) .
+.PHONY: push-docker
 
 # For any unknown target, pass it down to undefinedvalue/Makefile
 %::
